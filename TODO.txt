@@ -1,0 +1,50 @@
+Autopilots:
+    Rovers:
+        HDG
+        SPD
+        GOTO COORDINATES
+        FIND ROUTE
+    Airplanes:
+        HDG
+        ALT
+        V/S
+        FPA
+        RWY
+        RWY TRK
+        Rollout
+        Flare
+        YAW DAMPER
+        ATHR
+        WLV Wing Level
+        NAV
+        Pitch Sync
+        FLC Level Change
+        DES
+        More drag
+        Terrain Follow
+        GPWS
+        TOGA
+        Reentry
+        GS
+        VNAV
+        APPR
+        Autoland
+        BC
+        Bank limit
+        Knots-Mach
+        Total energy readout
+        Fuel Prediction
+    Fly-By-Wire:
+        Alpha Prot
+            1g Stall is MAX CL angle. TOGA thrust, pitch down?
+        Bank limit
+            33 soft, 66 hard. 0 soft, 40 hard at protections.
+        Overspeed Prot
+            Hell no! Well, maybe overheating parts
+        Pitch Prot
+            +30 to -10
+        Load Prot
+            +2.5 g to -1 g
+        Trim setting
+        Pitch hold, bank hold
+        Bank 15 deg/second, pitch via load demand

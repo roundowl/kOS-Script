@@ -1,0 +1,898 @@
+,,,,Total compile time: ,51.728ms
+,,,,Total update time: ,14308.874ms
+,,,,Total execution time: ,14077.850ms
+,,,,Maximum update time: ,550.019ms
+,,,,Maximum execution time: ,550.004ms
+,,,,Most Mainline instructions in one update: ,452
+ 
+
+File                ,Line:Col,IP  ,label  ,opcode,operand                                                        ,    Total ms, Count,  Average ms
+====                ,====:===,====,================================,,                                            ,    ========, =====,  ==========
+                    ,   0:0  ,0000,       ,jump +460,                                                            ,      0.2323,     1,      0.2323
+[built-in]          ,   0:0  ,0001,@LR00  ,pushscope -999 0,                                                     ,      0.0000,     0,         NaN
+[built-in]          ,   0:0  ,0002,@LR01  ,storelocal $runonce,                                                  ,      0.0000,     0,         NaN
+[built-in]          ,   0:0  ,0003,@LR02  ,storelocal $filename,                                                 ,      0.0000,     0,         NaN
+[built-in]          ,   0:0  ,0004,@LR03  ,push _KOSArgMarker_,                                                  ,      0.0000,     0,         NaN
+[built-in]          ,   0:0  ,0005,@LR04  ,push $filename,                                                       ,      0.0000,     0,         NaN
+[built-in]          ,   0:0  ,0006,@LR05  ,eval,                                                                 ,      0.0000,     0,         NaN
+[built-in]          ,   0:0  ,0007,@LR06  ,push True,                                                            ,      0.0000,     0,         NaN
+[built-in]          ,   0:0  ,0008,@LR07  ,push null,                                                            ,      0.0000,     0,         NaN
+[built-in]          ,   0:0  ,0009,@LR08  ,call load(),                                                          ,      0.0000,     0,         NaN
+[built-in]          ,   0:0  ,0010,@LR09  ,br.false +6,                                                          ,      0.0000,     0,         NaN
+[built-in]          ,   0:0  ,0011,@LR10  ,push $runonce,                                                        ,      0.0000,     0,         NaN
+[built-in]          ,   0:0  ,0012,@LR11  ,br.false +4,                                                          ,      0.0000,     0,         NaN
+[built-in]          ,   0:0  ,0013,@LR12  ,pop,                                                                  ,      0.0000,     0,         NaN
+[built-in]          ,   0:0  ,0014,@LR13  ,push 0,                                                               ,      0.0000,     0,         NaN
+[built-in]          ,   0:0  ,0015,@LR14  ,return 1 deep,                                                        ,      0.0000,     0,         NaN
+[built-in]          ,   0:0  ,0016,@LR15  ,storelocal $entrypoint,                                               ,      0.0000,     0,         NaN
+[built-in]          ,   0:0  ,0017,@LR16  ,call $entrypoint,                                                     ,      0.0000,     0,         NaN
+[built-in]          ,   0:0  ,0018,@LR17  ,pop,                                                                  ,      0.0000,     0,         NaN
+[built-in]          ,   0:0  ,0019,@LR18  ,push 0,                                                               ,      0.0000,     0,         NaN
+[built-in]          ,   0:0  ,0020,@LR19  ,return 1 deep,                                                        ,      0.0000,     0,         NaN
+Archive:/sstoascend.ks,  23:1  ,0021,acftpitch`0-7a0a6a86,pushscope 2 1,                                         ,     46.7478, 70146,      0.0007
+Archive:/sstoascend.ks,  23:1  ,0022,@0024  ,argbottom,                                                          ,     11.5958, 70146,      0.0002
+Archive:/sstoascend.ks,  23:19 ,0023,@0025  ,push 90,                                                            ,     20.3727, 70146,      0.0003
+Archive:/sstoascend.ks,  23:28 ,0024,@0026  ,push _KOSArgMarker_,                                                ,      9.3332, 70146,      0.0001
+Archive:/sstoascend.ks,  23:29 ,0025,@0027  ,push $up,                                                           ,     11.2748, 70146,      0.0002
+Archive:/sstoascend.ks,  23:29 ,0026,@0028  ,getmember vector,                                                   ,   1004.7937, 70146,      0.0143
+Archive:/sstoascend.ks,  23:39 ,0027,@0029  ,push $ship,                                                         ,     13.5776, 70146,      0.0002
+Archive:/sstoascend.ks,  23:39 ,0028,@0030  ,getmember facing,                                                   ,    982.6713, 70146,      0.0140
+Archive:/sstoascend.ks,  23:39 ,0029,@0031  ,getmember forevector,                                               ,    546.2170, 70146,      0.0078
+Archive:/sstoascend.ks,  23:39 ,0030,@0032  ,call vang(),                                                        ,    208.9906, 70146,      0.0030
+Archive:/sstoascend.ks,  23:22 ,0031,@0033  ,sub,                                                                ,    636.6399, 70146,      0.0091
+Archive:/sstoascend.ks,  23:22 ,0032,@0034  ,return 1 deep,                                                      ,     58.0184, 70146,      0.0008
+Archive:/sstoascend.ks,  23:1  ,0033,acftpitch`0-default,argbottom,                                              ,      0.0000,     0,         NaN
+Archive:/sstoascend.ks,  23:1  ,0034,@0021  ,push $acftpitch,                                                    ,      0.0000,     0,         NaN
+Archive:/sstoascend.ks,  23:1  ,0035,@0022  ,return 0 deep,                                                      ,      0.0000,     0,         NaN
+Archive:/sstoascend.ks,  24:1  ,0036,fpa`0-2caf730b,pushscope 3 1,                                               ,     49.9045, 76952,      0.0006
+Archive:/sstoascend.ks,  24:1  ,0037,@0040  ,argbottom,                                                          ,     13.3564, 76952,      0.0002
+Archive:/sstoascend.ks,  24:13 ,0038,@0041  ,push 90,                                                            ,     23.4403, 76952,      0.0003
+Archive:/sstoascend.ks,  24:22 ,0039,@0042  ,push _KOSArgMarker_,                                                ,     10.0538, 76952,      0.0001
+Archive:/sstoascend.ks,  24:23 ,0040,@0043  ,push $up,                                                           ,     11.9851, 76952,      0.0002
+Archive:/sstoascend.ks,  24:23 ,0041,@0044  ,getmember vector,                                                   ,    800.1758, 76952,      0.0104
+Archive:/sstoascend.ks,  24:33 ,0042,@0045  ,push $ship,                                                         ,     15.9639, 76952,      0.0002
+Archive:/sstoascend.ks,  24:33 ,0043,@0046  ,getmember velocity,                                                 ,   2012.4730, 76952,      0.0262
+Archive:/sstoascend.ks,  24:33 ,0044,@0047  ,getmember surface,                                                  ,    398.1356, 76952,      0.0052
+Archive:/sstoascend.ks,  24:33 ,0045,@0048  ,call vang(),                                                        ,    226.2442, 76952,      0.0029
+Archive:/sstoascend.ks,  24:16 ,0046,@0049  ,sub,                                                                ,    646.9548, 76952,      0.0084
+Archive:/sstoascend.ks,  24:16 ,0047,@0050  ,return 1 deep,                                                      ,     63.3348, 76952,      0.0008
+Archive:/sstoascend.ks,  24:1  ,0048,fpa`0-default,argbottom,                                                    ,      0.0000,     0,         NaN
+Archive:/sstoascend.ks,  24:1  ,0049,@0037  ,push $fpa,                                                          ,      0.0000,     0,         NaN
+Archive:/sstoascend.ks,  24:1  ,0050,@0038  ,return 0 deep,                                                      ,      0.0000,     0,         NaN
+Archive:/sstoascend.ks,  25:1  ,0051,aoa`0-d8b55845,pushscope 4 1,                                               ,      0.0000,     0,         NaN
+Archive:/sstoascend.ks,  25:1  ,0052,@0056  ,argbottom,                                                          ,      0.0000,     0,         NaN
+Archive:/sstoascend.ks,  25:13 ,0053,@0057  ,push _KOSArgMarker_,                                                ,      0.0000,     0,         NaN
+Archive:/sstoascend.ks,  25:13 ,0054,@0058  ,call $acftpitch*,                                                   ,      0.0000,     0,         NaN
+Archive:/sstoascend.ks,  25:25 ,0055,@0059  ,push _KOSArgMarker_,                                                ,      0.0000,     0,         NaN
+Archive:/sstoascend.ks,  25:25 ,0056,@0060  ,call $fpa*,                                                         ,      0.0000,     0,         NaN
+Archive:/sstoascend.ks,  25:23 ,0057,@0061  ,sub,                                                                ,      0.0000,     0,         NaN
+Archive:/sstoascend.ks,  25:23 ,0058,@0062  ,return 1 deep,                                                      ,      0.0000,     0,         NaN
+Archive:/sstoascend.ks,  25:1  ,0059,aoa`0-default,argbottom,                                                    ,      0.0000,     0,         NaN
+Archive:/sstoascend.ks,  25:1  ,0060,@0053  ,push $aoa,                                                          ,      0.0000,     0,         NaN
+Archive:/sstoascend.ks,  25:1  ,0061,@0054  ,return 0 deep,                                                      ,      0.0000,     0,         NaN
+Archive:/sstoascend.ks,  27:1  ,0062,roll`0-43c1f988,pushscope 5 1,                                              ,      0.0000,     0,         NaN
+Archive:/sstoascend.ks,  27:1  ,0063,@0068  ,argbottom,                                                          ,      0.0000,     0,         NaN
+Archive:/sstoascend.ks,  27:14 ,0064,@0069  ,push 90,                                                            ,      0.0000,     0,         NaN
+Archive:/sstoascend.ks,  27:23 ,0065,@0070  ,push _KOSArgMarker_,                                                ,      0.0000,     0,         NaN
+Archive:/sstoascend.ks,  27:24 ,0066,@0071  ,push $up,                                                           ,      0.0000,     0,         NaN
+Archive:/sstoascend.ks,  27:24 ,0067,@0072  ,getmember vector,                                                   ,      0.0000,     0,         NaN
+Archive:/sstoascend.ks,  27:34 ,0068,@0073  ,push $ship,                                                         ,      0.0000,     0,         NaN
+Archive:/sstoascend.ks,  27:34 ,0069,@0074  ,getmember facing,                                                   ,      0.0000,     0,         NaN
+Archive:/sstoascend.ks,  27:34 ,0070,@0075  ,getmember starvector,                                               ,      0.0000,     0,         NaN
+Archive:/sstoascend.ks,  27:34 ,0071,@0076  ,call vang(),                                                        ,      0.0000,     0,         NaN
+Archive:/sstoascend.ks,  27:17 ,0072,@0077  ,sub,                                                                ,      0.0000,     0,         NaN
+Archive:/sstoascend.ks,  27:17 ,0073,@0078  ,return 1 deep,                                                      ,      0.0000,     0,         NaN
+Archive:/sstoascend.ks,  27:1  ,0074,roll`0-default,argbottom,                                                   ,      0.0000,     0,         NaN
+Archive:/sstoascend.ks,  27:1  ,0075,@0065  ,push $roll,                                                         ,      0.0000,     0,         NaN
+Archive:/sstoascend.ks,  27:1  ,0076,@0066  ,return 0 deep,                                                      ,      0.0000,     0,         NaN
+Archive:/sstoascend.ks,  35:1  ,0077,gravitationalacc`0-fe61fca9,pushscope 6 1,                                  ,     10.1370, 13884,      0.0007
+Archive:/sstoascend.ks,  35:1  ,0078,@0084  ,argbottom,                                                          ,      2.9946, 13884,      0.0002
+Archive:/sstoascend.ks,  35:26 ,0079,@0085  ,push $ship,                                                         ,      5.2098, 13884,      0.0004
+Archive:/sstoascend.ks,  35:26 ,0080,@0086  ,getmember body,                                                     ,    197.1003, 13884,      0.0142
+Archive:/sstoascend.ks,  35:26 ,0081,@0087  ,getmember mu,                                                       ,     43.7936, 13884,      0.0032
+Archive:/sstoascend.ks,  35:42 ,0082,@0088  ,push $ship,                                                         ,      3.8095, 13884,      0.0003
+Archive:/sstoascend.ks,  35:42 ,0083,@0089  ,getmember body,                                                     ,    119.0333, 13884,      0.0086
+Archive:/sstoascend.ks,  35:42 ,0084,@0090  ,getmember radius,                                                   ,     29.8749, 13884,      0.0022
+Archive:/sstoascend.ks,  35:61 ,0085,@0091  ,push $ship,                                                         ,      3.7172, 13884,      0.0003
+Archive:/sstoascend.ks,  35:61 ,0086,@0092  ,getmember altitude,                                                 ,    130.8133, 13884,      0.0094
+Archive:/sstoascend.ks,  35:59 ,0087,@0093  ,add,                                                                ,     20.4941, 13884,      0.0015
+Archive:/sstoascend.ks,  35:76 ,0088,@0094  ,push 2,                                                             ,      5.8918, 13884,      0.0004
+Archive:/sstoascend.ks,  35:75 ,0089,@0095  ,pow,                                                                ,     25.1231, 13884,      0.0018
+Archive:/sstoascend.ks,  35:39 ,0090,@0096  ,div,                                                                ,     18.4066, 13884,      0.0013
+Archive:/sstoascend.ks,  35:39 ,0091,@0097  ,return 1 deep,                                                      ,     11.9175, 13884,      0.0009
+Archive:/sstoascend.ks,  35:1  ,0092,gravitationalacc`0-default,argbottom,                                       ,      0.0000,     0,         NaN
+Archive:/sstoascend.ks,  35:1  ,0093,@0081  ,push $gravitationalacc,                                             ,      0.0000,     0,         NaN
+Archive:/sstoascend.ks,  35:1  ,0094,@0082  ,return 0 deep,                                                      ,      0.0000,     0,         NaN
+Archive:/sstoascend.ks,  39:24 ,0095,accelerometer`0-848f484d,pushscope 7 1,                                     ,     10.9309, 13884,      0.0008
+Archive:/sstoascend.ks,  39:24 ,0096,@0099  ,argbottom,                                                          ,      3.3019, 13884,      0.0002
+Archive:/sstoascend.ks,  41:20 ,0097,@0100  ,push $ship,                                                         ,      5.7271, 13884,      0.0004
+Archive:/sstoascend.ks,  41:20 ,0098,@0101  ,getmember velocity,                                                 ,    161.8963, 13884,      0.0117
+Archive:/sstoascend.ks,  41:20 ,0099,@0102  ,getmember orbit,                                                    ,     72.3734, 13884,      0.0052
+Archive:/sstoascend.ks,  41:20 ,0100,@0103  ,store $currvel,                                                     ,     20.2697, 13884,      0.0015
+Archive:/sstoascend.ks,  41:57 ,0101,@0104  ,push $time,                                                         ,      4.4916, 13884,      0.0003
+Archive:/sstoascend.ks,  41:57 ,0102,@0105  ,getmember seconds,                                                  ,    740.9313, 13884,      0.0534
+Archive:/sstoascend.ks,  41:57 ,0103,@0106  ,store $currtime,                                                    ,     16.4705, 13884,      0.0012
+Archive:/sstoascend.ks,  44:24 ,0104,@0107  ,push $currtime,                                                     ,      4.4359, 13884,      0.0003
+Archive:/sstoascend.ks,  44:35 ,0105,@0108  ,push $prevtime,                                                     ,      3.1846, 13884,      0.0002
+Archive:/sstoascend.ks,  44:33 ,0106,@0109  ,sub,                                                                ,     36.4338, 13884,      0.0026
+Archive:/sstoascend.ks,  44:33 ,0107,@0110  ,storelocal $timedelta,                                              ,     19.9791, 13884,      0.0014
+Archive:/sstoascend.ks,  45:8  ,0108,@0111  ,push $timedelta,                                                    ,      4.4882, 13884,      0.0003
+Archive:/sstoascend.ks,  45:21 ,0109,@0112  ,push 0,                                                             ,      5.5652, 13884,      0.0004
+Archive:/sstoascend.ks,  45:18 ,0110,@0113  ,ne,                                                                 ,     28.0583, 13884,      0.0020
+Archive:/sstoascend.ks,  45:18 ,0111,@0114  ,br.false +17,                                                       ,      6.6491, 13884,      0.0005
+Archive:/sstoascend.ks,  46:5  ,0112,@0115  ,pushscope 8 7,                                                      ,      8.1125, 13884,      0.0006
+Archive:/sstoascend.ks,  49:21 ,0113,@0116  ,push $currvel,                                                      ,      3.5146, 13884,      0.0003
+Archive:/sstoascend.ks,  49:31 ,0114,@0117  ,push $prevvel,                                                      ,      2.9152, 13884,      0.0002
+Archive:/sstoascend.ks,  49:29 ,0115,@0118  ,sub,                                                                ,    269.8934, 13884,      0.0194
+Archive:/sstoascend.ks,  49:43 ,0116,@0119  ,push 1,                                                             ,      8.7106, 13884,      0.0006
+Archive:/sstoascend.ks,  49:47 ,0117,@0120  ,push $timedelta,                                                    ,      4.4173, 13884,      0.0003
+Archive:/sstoascend.ks,  49:45 ,0118,@0121  ,div,                                                                ,     32.3922, 13884,      0.0023
+Archive:/sstoascend.ks,  49:40 ,0119,@0122  ,mult,                                                               ,    380.4205, 13884,      0.0274
+Archive:/sstoascend.ks,  49:60 ,0120,@0123  ,push $up,                                                           ,      6.7795, 13884,      0.0005
+Archive:/sstoascend.ks,  49:60 ,0121,@0124  ,getmember forevector,                                               ,     30.3146, 13884,      0.0022
+Archive:/sstoascend.ks,  49:76 ,0122,@0125  ,push _KOSArgMarker_,                                                ,      3.5250, 13884,      0.0003
+Archive:/sstoascend.ks,  49:76 ,0123,@0126  ,call $gravitationalacc*,                                            ,     47.0385, 13884,      0.0034
+Archive:/sstoascend.ks,  49:74 ,0124,@0127  ,mult,                                                               ,    250.1910, 13884,      0.0180
+Archive:/sstoascend.ks,  49:58 ,0125,@0128  ,add,                                                                ,     67.5259, 13884,      0.0049
+Archive:/sstoascend.ks,  49:58 ,0126,@0129  ,store $acc,                                                         ,     18.5744, 13884,      0.0013
+Archive:/sstoascend.ks,  50:5  ,0127,@0130  ,popscope 1,                                                         ,      4.6970, 13884,      0.0003
+Archive:/sstoascend.ks,  53:20 ,0128,@0131  ,push $currvel,                                                      ,      4.1425, 13884,      0.0003
+Archive:/sstoascend.ks,  53:20 ,0129,@0132  ,store $prevvel,                                                     ,     14.9917, 13884,      0.0011
+Archive:/sstoascend.ks,  53:45 ,0130,@0133  ,push $currtime,                                                     ,      3.3070, 13884,      0.0002
+Archive:/sstoascend.ks,  53:45 ,0131,@0134  ,store $prevtime,                                                    ,     15.2945, 13884,      0.0011
+Archive:/sstoascend.ks,  54:12 ,0132,@0135  ,push $acc,                                                          ,      3.2913, 13884,      0.0002
+Archive:/sstoascend.ks,  54:12 ,0133,@0136  ,return 1 deep,                                                      ,     15.7691, 13884,      0.0011
+Archive:/sstoascend.ks,  55:1  ,0134,@0137  ,popscope 1,                                                         ,      0.0000,     0,         NaN
+Archive:/sstoascend.ks,  55:1  ,0135,@0138  ,push 0,                                                             ,      0.0000,     0,         NaN
+Archive:/sstoascend.ks,  55:1  ,0136,@0139  ,return 0 deep,                                                      ,      0.0000,     0,         NaN
+Archive:/sstoascend.ks,  57:23 ,0137,pitchprotect`0-fdf91604,pushscope 9 1,                                      ,     12.2191, 13884,      0.0009
+Archive:/sstoascend.ks,  58:5  ,0138,@0141  ,storelocal $tpitch,                                                 ,     24.8410, 13884,      0.0018
+Archive:/sstoascend.ks,  58:5  ,0139,@0142  ,storelocal $acftpitch,                                              ,     14.1047, 13884,      0.0010
+Archive:/sstoascend.ks,  58:5  ,0140,@0143  ,storelocal $fpa,                                                    ,     13.4203, 13884,      0.0010
+Archive:/sstoascend.ks,  58:5  ,0141,@0144  ,argbottom,                                                          ,      3.1886, 13884,      0.0002
+Archive:/sstoascend.ks,  63:22 ,0142,@0145  ,push _KOSArgMarker_,                                                ,      3.5032, 13884,      0.0003
+Archive:/sstoascend.ks,  63:23 ,0143,@0146  ,push $ship,                                                         ,      3.0707, 13884,      0.0002
+Archive:/sstoascend.ks,  63:23 ,0144,@0147  ,getmember facing,                                                   ,    184.4588, 13884,      0.0133
+Archive:/sstoascend.ks,  63:23 ,0145,@0148  ,getmember topvector,                                                ,    106.9278, 13884,      0.0077
+Archive:/sstoascend.ks,  63:59 ,0146,@0149  ,push _KOSArgMarker_,                                                ,      2.7369, 13884,      0.0002
+Archive:/sstoascend.ks,  63:59 ,0147,@0150  ,call $accelerometer*,                                               ,     41.2546, 13884,      0.0030
+Archive:/sstoascend.ks,  63:59 ,0148,@0151  ,call vdot(),                                                        ,     48.2685, 13884,      0.0035
+Archive:/sstoascend.ks,  63:65 ,0149,@0152  ,push 9.8,                                                           ,      7.1093, 13884,      0.0005
+Archive:/sstoascend.ks,  63:63 ,0150,@0153  ,div,                                                                ,     19.3281, 13884,      0.0014
+Archive:/sstoascend.ks,  63:63 ,0151,@0154  ,store $gload,                                                       ,     16.4587, 13884,      0.0012
+Archive:/sstoascend.ks,  64:5  ,0152,@0155  ,push _KOSArgMarker_,                                                ,      2.6476, 13884,      0.0002
+Archive:/sstoascend.ks,  64:11 ,0153,@0156  ,push Protections in effect: ,                                       ,      5.0684, 13884,      0.0004
+Archive:/sstoascend.ks,  64:42 ,0154,@0157  ,push _KOSArgMarker_,                                                ,      2.0067, 13884,      0.0001
+Archive:/sstoascend.ks,  64:48 ,0155,@0158  ,push _KOSArgMarker_,                                                ,      2.7724, 13884,      0.0002
+Archive:/sstoascend.ks,  64:49 ,0156,@0159  ,push $gload,                                                        ,      4.0378, 13884,      0.0003
+Archive:/sstoascend.ks,  64:55 ,0157,@0160  ,push 3,                                                             ,      6.2379, 13884,      0.0004
+Archive:/sstoascend.ks,  64:55 ,0158,@0161  ,call round(),                                                       ,     52.1471, 13884,      0.0038
+Archive:/sstoascend.ks,  64:55 ,0159,@0162  ,call abs(),                                                         ,     33.7923, 13884,      0.0024
+Archive:/sstoascend.ks,  64:37 ,0160,@0163  ,add,                                                                ,     61.5202, 13884,      0.0044
+Archive:/sstoascend.ks,  64:61 ,0161,@0164  ,push  ,                                                             ,      3.4137, 13884,      0.0002
+Archive:/sstoascend.ks,  64:59 ,0162,@0165  ,add,                                                                ,     18.9237, 13884,      0.0014
+Archive:/sstoascend.ks,  64:72 ,0163,@0166  ,push _KOSArgMarker_,                                                ,      2.2176, 13884,      0.0002
+Archive:/sstoascend.ks,  64:74 ,0164,@0167  ,push _KOSArgMarker_,                                                ,      2.1588, 13884,      0.0002
+Archive:/sstoascend.ks,  64:74 ,0165,@0168  ,call $acftpitch*,                                                   ,     37.6533, 13884,      0.0027
+Archive:/sstoascend.ks,  64:86 ,0166,@0169  ,push _KOSArgMarker_,                                                ,      2.6934, 13884,      0.0002
+Archive:/sstoascend.ks,  64:86 ,0167,@0170  ,call $fpa*,                                                         ,     33.7129, 13884,      0.0024
+Archive:/sstoascend.ks,  64:84 ,0168,@0171  ,sub,                                                                ,     18.2408, 13884,      0.0013
+Archive:/sstoascend.ks,  64:91 ,0169,@0172  ,push 3,                                                             ,      6.0945, 13884,      0.0004
+Archive:/sstoascend.ks,  64:91 ,0170,@0173  ,call round(),                                                       ,     34.6324, 13884,      0.0025
+Archive:/sstoascend.ks,  64:65 ,0171,@0174  ,add,                                                                ,     32.6155, 13884,      0.0023
+Archive:/sstoascend.ks,  64:99 ,0172,@0175  ,push 0,                                                             ,      8.4119, 13884,      0.0006
+Archive:/sstoascend.ks,  64:101,0173,@0176  ,push 10,                                                            ,      4.6530, 13884,      0.0003
+Archive:/sstoascend.ks,  64:101,0174,@0177  ,call printat(),                                                     ,     94.2674, 13884,      0.0068
+Archive:/sstoascend.ks,  64:101,0175,@0178  ,pop,                                                                ,      4.6671, 13884,      0.0003
+Archive:/sstoascend.ks,  65:9  ,0176,@0179  ,push $gload,                                                        ,      4.6387, 13884,      0.0003
+Archive:/sstoascend.ks,  65:17 ,0177,@0180  ,push 3.5,                                                           ,      6.6372, 13884,      0.0005
+Archive:/sstoascend.ks,  65:15 ,0178,@0181  ,gt,                                                                 ,     19.1857, 13884,      0.0014
+Archive:/sstoascend.ks,  65:15 ,0179,@0182  ,br.false +21,                                                       ,      4.8476, 13884,      0.0003
+Archive:/sstoascend.ks,  65:22 ,0180,@0183  ,pushscope 10 9,                                                     ,      0.0000,     0,         NaN
+Archive:/sstoascend.ks,  66:23 ,0181,@0184  ,push _KOSArgMarker_,                                                ,      0.0000,     0,         NaN
+Archive:/sstoascend.ks,  66:23 ,0182,@0185  ,call $fpa*,                                                         ,      0.0000,     0,         NaN
+Archive:/sstoascend.ks,  66:28 ,0183,@0186  ,push $tpitch,                                                       ,      0.0000,     0,         NaN
+Archive:/sstoascend.ks,  66:35 ,0184,@0187  ,push _KOSArgMarker_,                                                ,      0.0000,     0,         NaN
+Archive:/sstoascend.ks,  66:35 ,0185,@0188  ,call $fpa*,                                                         ,      0.0000,     0,         NaN
+Archive:/sstoascend.ks,  66:34 ,0186,@0189  ,sub,                                                                ,      0.0000,     0,         NaN
+Archive:/sstoascend.ks,  66:41 ,0187,@0190  ,push 4.5,                                                           ,      0.0000,     0,         NaN
+Archive:/sstoascend.ks,  66:45 ,0188,@0191  ,push $gload,                                                        ,      0.0000,     0,         NaN
+Archive:/sstoascend.ks,  66:44 ,0189,@0192  ,sub,                                                                ,      0.0000,     0,         NaN
+Archive:/sstoascend.ks,  66:39 ,0190,@0193  ,mult,                                                               ,      0.0000,     0,         NaN
+Archive:/sstoascend.ks,  66:26 ,0191,@0194  ,add,                                                                ,      0.0000,     0,         NaN
+Archive:/sstoascend.ks,  66:26 ,0192,@0195  ,store $tpitch,                                                      ,      0.0000,     0,         NaN
+Archive:/sstoascend.ks,  67:9  ,0193,@0196  ,push _KOSArgMarker_,                                                ,      0.0000,     0,         NaN
+Archive:/sstoascend.ks,  67:15 ,0194,@0197  ,push +LOAD,                                                         ,      0.0000,     0,         NaN
+Archive:/sstoascend.ks,  67:28 ,0195,@0198  ,push 23,                                                            ,      0.0000,     0,         NaN
+Archive:/sstoascend.ks,  67:31 ,0196,@0199  ,push 10,                                                            ,      0.0000,     0,         NaN
+Archive:/sstoascend.ks,  67:31 ,0197,@0200  ,call printat(),                                                     ,      0.0000,     0,         NaN
+Archive:/sstoascend.ks,  67:31 ,0198,@0201  ,pop,                                                                ,      0.0000,     0,         NaN
+Archive:/sstoascend.ks,  68:5  ,0199,@0202  ,popscope 1,                                                         ,      0.0000,     0,         NaN
+Archive:/sstoascend.ks,  69:9  ,0200,@0203  ,push $gload,                                                        ,      7.1221, 13884,      0.0005
+Archive:/sstoascend.ks,  69:18 ,0201,@0204  ,push 3,                                                             ,      5.3540, 13884,      0.0004
+Archive:/sstoascend.ks,  69:18 ,0202,@0205  ,negate,                                                             ,     35.4180, 13884,      0.0026
+Archive:/sstoascend.ks,  69:15 ,0203,@0206  ,lt,                                                                 ,     16.4999, 13884,      0.0012
+Archive:/sstoascend.ks,  69:15 ,0204,@0207  ,br.false +23,                                                       ,      3.1542, 13884,      0.0002
+Archive:/sstoascend.ks,  69:23 ,0205,@0208  ,pushscope 11 9,                                                     ,      0.0000,     0,         NaN
+Archive:/sstoascend.ks,  70:23 ,0206,@0209  ,push _KOSArgMarker_,                                                ,      0.0000,     0,         NaN
+Archive:/sstoascend.ks,  70:23 ,0207,@0210  ,call $fpa*,                                                         ,      0.0000,     0,         NaN
+Archive:/sstoascend.ks,  70:28 ,0208,@0211  ,push _KOSArgMarker_,                                                ,      0.0000,     0,         NaN
+Archive:/sstoascend.ks,  70:28 ,0209,@0212  ,call $fpa*,                                                         ,      0.0000,     0,         NaN
+Archive:/sstoascend.ks,  70:32 ,0210,@0213  ,push $tpitch,                                                       ,      0.0000,     0,         NaN
+Archive:/sstoascend.ks,  70:31 ,0211,@0214  ,sub,                                                                ,      0.0000,     0,         NaN
+Archive:/sstoascend.ks,  70:41 ,0212,@0215  ,push 4,                                                             ,      0.0000,     0,         NaN
+Archive:/sstoascend.ks,  70:48 ,0213,@0216  ,push _KOSArgMarker_,                                                ,      0.0000,     0,         NaN
+Archive:/sstoascend.ks,  70:49 ,0214,@0217  ,push $gload,                                                        ,      0.0000,     0,         NaN
+Archive:/sstoascend.ks,  70:49 ,0215,@0218  ,call abs(),                                                         ,      0.0000,     0,         NaN
+Archive:/sstoascend.ks,  70:44 ,0216,@0219  ,sub,                                                                ,      0.0000,     0,         NaN
+Archive:/sstoascend.ks,  70:39 ,0217,@0220  ,mult,                                                               ,      0.0000,     0,         NaN
+Archive:/sstoascend.ks,  70:26 ,0218,@0221  ,sub,                                                                ,      0.0000,     0,         NaN
+Archive:/sstoascend.ks,  70:26 ,0219,@0222  ,store $tpitch,                                                      ,      0.0000,     0,         NaN
+Archive:/sstoascend.ks,  71:9  ,0220,@0223  ,push _KOSArgMarker_,                                                ,      0.0000,     0,         NaN
+Archive:/sstoascend.ks,  71:15 ,0221,@0224  ,push -LOAD,                                                         ,      0.0000,     0,         NaN
+Archive:/sstoascend.ks,  71:28 ,0222,@0225  ,push 23,                                                            ,      0.0000,     0,         NaN
+Archive:/sstoascend.ks,  71:31 ,0223,@0226  ,push 10,                                                            ,      0.0000,     0,         NaN
+Archive:/sstoascend.ks,  71:31 ,0224,@0227  ,call printat(),                                                     ,      0.0000,     0,         NaN
+Archive:/sstoascend.ks,  71:31 ,0225,@0228  ,pop,                                                                ,      0.0000,     0,         NaN
+Archive:/sstoascend.ks,  72:5  ,0226,@0229  ,popscope 1,                                                         ,      0.0000,     0,         NaN
+Archive:/sstoascend.ks,  74:10 ,0227,@0230  ,push _KOSArgMarker_,                                                ,      5.4110, 13884,      0.0004
+Archive:/sstoascend.ks,  74:10 ,0228,@0231  ,call $acftpitch*,                                                   ,     34.8211, 13884,      0.0025
+Archive:/sstoascend.ks,  74:22 ,0229,@0232  ,push _KOSArgMarker_,                                                ,      3.8901, 13884,      0.0003
+Archive:/sstoascend.ks,  74:22 ,0230,@0233  ,call $fpa*,                                                         ,     34.9279, 13884,      0.0025
+Archive:/sstoascend.ks,  74:20 ,0231,@0234  ,sub,                                                                ,     18.9155, 13884,      0.0014
+Archive:/sstoascend.ks,  74:29 ,0232,@0235  ,push 8,                                                             ,      6.8415, 13884,      0.0005
+Archive:/sstoascend.ks,  74:27 ,0233,@0236  ,gt,                                                                 ,      8.0518, 13884,      0.0006
+Archive:/sstoascend.ks,  74:27 ,0234,@0237  ,br.false +17,                                                       ,      3.3723, 13884,      0.0002
+Archive:/sstoascend.ks,  74:32 ,0235,@0238  ,pushscope 12 9,                                                     ,      2.2926,  3060,      0.0007
+Archive:/sstoascend.ks,  75:26 ,0236,@0239  ,push _KOSArgMarker_,                                                ,      0.8606,  3060,      0.0003
+Archive:/sstoascend.ks,  75:27 ,0237,@0240  ,push $tpitch,                                                       ,      0.8639,  3060,      0.0003
+Archive:/sstoascend.ks,  75:35 ,0238,@0241  ,push _KOSArgMarker_,                                                ,      0.5462,  3060,      0.0002
+Archive:/sstoascend.ks,  75:35 ,0239,@0242  ,call $fpa*,                                                         ,      7.2707,  3060,      0.0024
+Archive:/sstoascend.ks,  75:41 ,0240,@0243  ,push 8,                                                             ,      1.3834,  3060,      0.0005
+Archive:/sstoascend.ks,  75:39 ,0241,@0244  ,add,                                                                ,      4.3099,  3060,      0.0014
+Archive:/sstoascend.ks,  75:39 ,0242,@0245  ,call min(),                                                         ,      8.8690,  3060,      0.0029
+Archive:/sstoascend.ks,  75:39 ,0243,@0246  ,store $tpitch,                                                      ,      2.5224,  3060,      0.0008
+Archive:/sstoascend.ks,  76:9  ,0244,@0247  ,push _KOSArgMarker_,                                                ,      0.8260,  3060,      0.0003
+Archive:/sstoascend.ks,  76:15 ,0245,@0248  ,push ALPHA,                                                         ,      0.7165,  3060,      0.0002
+Archive:/sstoascend.ks,  76:28 ,0246,@0249  ,push 29,                                                            ,      1.1833,  3060,      0.0004
+Archive:/sstoascend.ks,  76:31 ,0247,@0250  ,push 10,                                                            ,      1.2124,  3060,      0.0004
+Archive:/sstoascend.ks,  76:31 ,0248,@0251  ,call printat(),                                                     ,     11.3242,  3060,      0.0037
+Archive:/sstoascend.ks,  76:31 ,0249,@0252  ,pop,                                                                ,      0.6385,  3060,      0.0002
+Archive:/sstoascend.ks,  77:5  ,0250,@0253  ,popscope 1,                                                         ,      0.6018,  3060,      0.0002
+Archive:/sstoascend.ks,  79:22 ,0251,@0254  ,push _KOSArgMarker_,                                                ,      5.1009, 13884,      0.0004
+Archive:/sstoascend.ks,  79:24 ,0252,@0255  ,push 20,                                                            ,      6.3420, 13884,      0.0005
+Archive:/sstoascend.ks,  79:24 ,0253,@0256  ,negate,                                                             ,     28.9791, 13884,      0.0021
+Archive:/sstoascend.ks,  79:30 ,0254,@0257  ,push _KOSArgMarker_,                                                ,      2.4970, 13884,      0.0002
+Archive:/sstoascend.ks,  79:31 ,0255,@0258  ,push 45,                                                            ,      4.6909, 13884,      0.0003
+Archive:/sstoascend.ks,  79:34 ,0256,@0259  ,push $tpitch,                                                       ,      4.3534, 13884,      0.0003
+Archive:/sstoascend.ks,  79:34 ,0257,@0260  ,call min(),                                                         ,     38.7906, 13884,      0.0028
+Archive:/sstoascend.ks,  79:34 ,0258,@0261  ,call max(),                                                         ,     30.1067, 13884,      0.0022
+Archive:/sstoascend.ks,  79:34 ,0259,@0262  ,store $tpitch,                                                      ,      9.6087, 13884,      0.0007
+Archive:/sstoascend.ks,  80:12 ,0260,@0263  ,push $tpitch,                                                       ,      4.1036, 13884,      0.0003
+Archive:/sstoascend.ks,  80:12 ,0261,@0264  ,return 1 deep,                                                      ,     14.1684, 13884,      0.0010
+Archive:/sstoascend.ks,  81:1  ,0262,@0265  ,popscope 1,                                                         ,      0.0000,     0,         NaN
+Archive:/sstoascend.ks,  81:1  ,0263,@0266  ,push 0,                                                             ,      0.0000,     0,         NaN
+Archive:/sstoascend.ks,  81:1  ,0264,@0267  ,return 0 deep,                                                      ,      0.0000,     0,         NaN
+Archive:/sstoascend.ks,  86:1  ,0265,steering`0-ba9da7f4,pushscope 13 1,                                         ,      4.4851,  2430,      0.0018
+Archive:/sstoascend.ks,  86:1  ,0266,@0277  ,argbottom,                                                          ,      1.6571,  2430,      0.0007
+Archive:/sstoascend.ks,  86:25 ,0267,@0278  ,push _KOSArgMarker_,                                                ,      0.8544,  2430,      0.0004
+Archive:/sstoascend.ks,  86:26 ,0268,@0279  ,push 90,                                                            ,      2.1850,  2430,      0.0009
+Archive:/sstoascend.ks,  86:29 ,0269,@0280  ,push 10,                                                            ,      1.0797,  2430,      0.0004
+Archive:/sstoascend.ks,  86:29 ,0270,@0281  ,call heading(),                                                     ,     38.4547,  2430,      0.0158
+Archive:/sstoascend.ks,  86:29 ,0271,@0282  ,return 1 deep,                                                      ,      3.6386,  2430,      0.0015
+Archive:/sstoascend.ks, 115:1  ,0272,steering`0-21557292,pushscope 17 1,                                         ,      8.4303,  4698,      0.0018
+Archive:/sstoascend.ks, 115:1  ,0273,@0354  ,argbottom,                                                          ,      3.0341,  4698,      0.0006
+Archive:/sstoascend.ks, 115:25 ,0274,@0355  ,push _KOSArgMarker_,                                                ,      1.5898,  4698,      0.0003
+Archive:/sstoascend.ks, 115:26 ,0275,@0356  ,push 90,                                                            ,      5.3017,  4698,      0.0011
+Archive:/sstoascend.ks, 115:40 ,0276,@0357  ,push _KOSArgMarker_,                                                ,      1.1564,  4698,      0.0002
+Archive:/sstoascend.ks, 115:41 ,0277,@0358  ,push _KOSArgMarker_,                                                ,      0.9978,  4698,      0.0002
+Archive:/sstoascend.ks, 115:41 ,0278,@0359  ,call $acftpitch*,                                                   ,     16.7118,  4698,      0.0036
+Archive:/sstoascend.ks, 115:51 ,0279,@0360  ,push _KOSArgMarker_,                                                ,      0.9423,  4698,      0.0002
+Archive:/sstoascend.ks, 115:51 ,0280,@0361  ,call $fpa*,                                                         ,     16.8060,  4698,      0.0036
+Archive:/sstoascend.ks, 115:51 ,0281,@0362  ,call $maximisefpa*,                                                 ,     23.3230,  4698,      0.0050
+Archive:/sstoascend.ks, 115:51 ,0282,@0363  ,call heading(),                                                     ,     35.7109,  4698,      0.0076
+Archive:/sstoascend.ks, 115:51 ,0283,@0364  ,return 1 deep,                                                      ,      3.6166,  4698,      0.0008
+Archive:/sstoascend.ks, 141:1  ,0284,steering`0-ecae8099,pushscope 20 1,                                         ,      9.2222,  5214,      0.0018
+Archive:/sstoascend.ks, 141:1  ,0285,@0398  ,argbottom,                                                          ,      3.3907,  5214,      0.0007
+Archive:/sstoascend.ks, 141:25 ,0286,@0399  ,push _KOSArgMarker_,                                                ,      1.7554,  5214,      0.0003
+Archive:/sstoascend.ks, 141:26 ,0287,@0400  ,push 90,                                                            ,      5.2638,  5214,      0.0010
+Archive:/sstoascend.ks, 141:36 ,0288,@0401  ,push _KOSArgMarker_,                                                ,      0.8226,  5214,      0.0002
+Archive:/sstoascend.ks, 141:37 ,0289,@0402  ,push 5,                                                             ,      2.8839,  5214,      0.0006
+Archive:/sstoascend.ks, 141:41 ,0290,@0403  ,push _KOSArgMarker_,                                                ,      0.8764,  5214,      0.0002
+Archive:/sstoascend.ks, 141:41 ,0291,@0404  ,call $fpa*,                                                         ,     20.5336,  5214,      0.0039
+Archive:/sstoascend.ks, 141:45 ,0292,@0405  ,push _KOSArgMarker_,                                                ,      1.5617,  5214,      0.0003
+Archive:/sstoascend.ks, 141:45 ,0293,@0406  ,call $acftpitch*,                                                   ,     16.8765,  5214,      0.0032
+Archive:/sstoascend.ks, 141:45 ,0294,@0407  ,call $keepfpa*,                                                     ,     27.9369,  5214,      0.0054
+Archive:/sstoascend.ks, 141:45 ,0295,@0408  ,call heading(),                                                     ,     39.1554,  5214,      0.0075
+Archive:/sstoascend.ks, 141:45 ,0296,@0409  ,return 1 deep,                                                      ,      3.9067,  5214,      0.0007
+Archive:/sstoascend.ks, 166:1  ,0297,steering`0-e8aad058,pushscope 23 1,                                         ,      7.1789,  3972,      0.0018
+Archive:/sstoascend.ks, 166:1  ,0298,@0443  ,argbottom,                                                          ,      2.5346,  3972,      0.0006
+Archive:/sstoascend.ks, 166:25 ,0299,@0444  ,push _KOSArgMarker_,                                                ,      1.3598,  3972,      0.0003
+Archive:/sstoascend.ks, 166:26 ,0300,@0445  ,push 90,                                                            ,      3.4592,  3972,      0.0009
+Archive:/sstoascend.ks, 166:33 ,0301,@0446  ,push _KOSArgMarker_,                                                ,      0.9907,  3972,      0.0002
+Archive:/sstoascend.ks, 166:34 ,0302,@0447  ,push 1000,                                                          ,      1.3988,  3972,      0.0004
+Archive:/sstoascend.ks, 166:39 ,0303,@0448  ,push _KOSArgMarker_,                                                ,      0.5802,  3972,      0.0001
+Archive:/sstoascend.ks, 166:39 ,0304,@0449  ,call $fpa*,                                                         ,     15.5628,  3972,      0.0039
+Archive:/sstoascend.ks, 166:43 ,0305,@0450  ,push _KOSArgMarker_,                                                ,      0.8667,  3972,      0.0002
+Archive:/sstoascend.ks, 166:43 ,0306,@0451  ,call $acftpitch*,                                                   ,     13.0002,  3972,      0.0033
+Archive:/sstoascend.ks, 166:43 ,0307,@0452  ,call $flch*,                                                        ,     20.3449,  3972,      0.0051
+Archive:/sstoascend.ks, 166:43 ,0308,@0453  ,call heading(),                                                     ,     30.3984,  3972,      0.0077
+Archive:/sstoascend.ks, 166:43 ,0309,@0454  ,return 1 deep,                                                      ,      3.0310,  3972,      0.0008
+Archive:/sstoascend.ks,  86:1  ,0310,steering`0-default,argbottom,                                               ,      0.0000,     0,         NaN
+Archive:/sstoascend.ks,  86:1  ,0311,@0274  ,push $steering,                                                     ,      0.0000,     0,         NaN
+Archive:/sstoascend.ks,  86:1  ,0312,@0275  ,return 0 deep,                                                      ,      0.0000,     0,         NaN
+Archive:/sstoascend.ks,  87:1  ,0313,wheelsteering`0-7b4010a4,pushscope 14 1,                                    ,      2.1372,  2430,      0.0009
+Archive:/sstoascend.ks,  87:1  ,0314,@0292  ,argbottom,                                                          ,      0.6071,  2430,      0.0002
+Archive:/sstoascend.ks,  87:23 ,0315,@0293  ,push 90,                                                            ,      1.5383,  2430,      0.0006
+Archive:/sstoascend.ks,  87:23 ,0316,@0294  ,return 1 deep,                                                      ,      2.1958,  2430,      0.0009
+Archive:/sstoascend.ks,  87:1  ,0317,wheelsteering`0-default,argbottom,                                          ,      0.0000,     0,         NaN
+Archive:/sstoascend.ks,  87:1  ,0318,@0289  ,push $wheelsteering,                                                ,      0.0000,     0,         NaN
+Archive:/sstoascend.ks,  87:1  ,0319,@0290  ,return 0 deep,                                                      ,      0.0000,     0,         NaN
+Archive:/sstoascend.ks, 103:22 ,0320,maximisefpa`0-bf8ac6bf,pushscope 16 1,                                      ,      3.7801,  4698,      0.0008
+Archive:/sstoascend.ks, 104:5  ,0321,@0296  ,storelocal $acftpitch,                                              ,     14.6255,  4698,      0.0031
+Archive:/sstoascend.ks, 104:5  ,0322,@0297  ,storelocal $fpa,                                                    ,      4.9257,  4698,      0.0010
+Archive:/sstoascend.ks, 104:5  ,0323,@0298  ,argbottom,                                                          ,      1.1751,  4698,      0.0003
+Archive:/sstoascend.ks, 108:22 ,0324,@0299  ,push _KOSArgMarker_,                                                ,      1.6027,  4698,      0.0003
+Archive:/sstoascend.ks, 108:23 ,0325,@0300  ,push 0,                                                             ,      2.7189,  4698,      0.0006
+Archive:/sstoascend.ks, 108:28 ,0326,@0301  ,push _KOSArgMarker_,                                                ,      1.0585,  4698,      0.0002
+Archive:/sstoascend.ks, 108:28 ,0327,@0302  ,call $acftpitch*,                                                   ,     11.3190,  4698,      0.0024
+Archive:/sstoascend.ks, 108:40 ,0328,@0303  ,push _KOSArgMarker_,                                                ,      0.8240,  4698,      0.0002
+Archive:/sstoascend.ks, 108:40 ,0329,@0304  ,call $fpa*,                                                         ,     11.4692,  4698,      0.0024
+Archive:/sstoascend.ks, 108:38 ,0330,@0305  ,sub,                                                                ,      6.1521,  4698,      0.0013
+Archive:/sstoascend.ks, 108:25 ,0331,@0306  ,add,                                                                ,      7.1340,  4698,      0.0015
+Archive:/sstoascend.ks, 108:46 ,0332,@0307  ,push _KOSArgMarker_,                                                ,      0.9891,  4698,      0.0002
+Archive:/sstoascend.ks, 108:46 ,0333,@0308  ,call $fpa*,                                                         ,     11.0570,  4698,      0.0024
+Archive:/sstoascend.ks, 108:52 ,0334,@0309  ,push 5,                                                             ,      1.9250,  4698,      0.0004
+Archive:/sstoascend.ks, 108:50 ,0335,@0310  ,add,                                                                ,      6.3489,  4698,      0.0014
+Archive:/sstoascend.ks, 108:50 ,0336,@0311  ,call max(),                                                         ,     13.5038,  4698,      0.0029
+Archive:/sstoascend.ks, 108:50 ,0337,@0312  ,store $tpitch,                                                      ,      6.5064,  4698,      0.0014
+Archive:/sstoascend.ks, 109:5  ,0338,@0313  ,push _KOSArgMarker_,                                                ,      0.8609,  4698,      0.0002
+Archive:/sstoascend.ks, 109:11 ,0339,@0314  ,push    Target: ,                                                   ,      2.3718,  4698,      0.0005
+Archive:/sstoascend.ks, 109:32 ,0340,@0315  ,push _KOSArgMarker_,                                                ,      0.9910,  4698,      0.0002
+Archive:/sstoascend.ks, 109:33 ,0341,@0316  ,push $tpitch,                                                       ,      0.9641,  4698,      0.0002
+Archive:/sstoascend.ks, 109:40 ,0342,@0317  ,push 1,                                                             ,      2.0632,  4698,      0.0004
+Archive:/sstoascend.ks, 109:40 ,0343,@0318  ,call round(),                                                       ,     18.6532,  4698,      0.0040
+Archive:/sstoascend.ks, 109:25 ,0344,@0319  ,add,                                                                ,     23.4666,  4698,      0.0050
+Archive:/sstoascend.ks, 109:45 ,0345,@0320  ,push  FPA: ,                                                        ,      1.1647,  4698,      0.0002
+Archive:/sstoascend.ks, 109:43 ,0346,@0321  ,add,                                                                ,      7.0334,  4698,      0.0015
+Archive:/sstoascend.ks, 109:61 ,0347,@0322  ,push _KOSArgMarker_,                                                ,      0.7790,  4698,      0.0002
+Archive:/sstoascend.ks, 109:62 ,0348,@0323  ,push _KOSArgMarker_,                                                ,      0.9814,  4698,      0.0002
+Archive:/sstoascend.ks, 109:62 ,0349,@0324  ,call $fpa*,                                                         ,     10.8465,  4698,      0.0023
+Archive:/sstoascend.ks, 109:66 ,0350,@0325  ,push 1,                                                             ,      2.1726,  4698,      0.0005
+Archive:/sstoascend.ks, 109:66 ,0351,@0326  ,call round(),                                                       ,     11.3260,  4698,      0.0024
+Archive:/sstoascend.ks, 109:54 ,0352,@0327  ,add,                                                                ,     10.5073,  4698,      0.0022
+Archive:/sstoascend.ks, 109:71 ,0353,@0328  ,push  Pitch: ,                                                      ,      1.1738,  4698,      0.0002
+Archive:/sstoascend.ks, 109:69 ,0354,@0329  ,add,                                                                ,      6.3638,  4698,      0.0014
+Archive:/sstoascend.ks, 109:89 ,0355,@0330  ,push _KOSArgMarker_,                                                ,      0.7490,  4698,      0.0002
+Archive:/sstoascend.ks, 109:90 ,0356,@0331  ,push _KOSArgMarker_,                                                ,      0.7226,  4698,      0.0002
+Archive:/sstoascend.ks, 109:90 ,0357,@0332  ,call $acftpitch*,                                                   ,     11.8407,  4698,      0.0025
+Archive:/sstoascend.ks, 109:100,0358,@0333  ,push 1,                                                             ,      2.0254,  4698,      0.0004
+Archive:/sstoascend.ks, 109:100,0359,@0334  ,call round(),                                                       ,     11.1806,  4698,      0.0024
+Archive:/sstoascend.ks, 109:82 ,0360,@0335  ,add,                                                                ,     11.6236,  4698,      0.0025
+Archive:/sstoascend.ks, 109:108,0361,@0336  ,push 0,                                                             ,      2.0740,  4698,      0.0004
+Archive:/sstoascend.ks, 109:110,0362,@0337  ,push 5,                                                             ,      1.7756,  4698,      0.0004
+Archive:/sstoascend.ks, 109:110,0363,@0338  ,call printat(),                                                     ,     36.2679,  4698,      0.0077
+Archive:/sstoascend.ks, 109:110,0364,@0339  ,pop,                                                                ,      1.7786,  4698,      0.0004
+Archive:/sstoascend.ks, 110:31 ,0365,@0340  ,push _KOSArgMarker_,                                                ,      1.0194,  4698,      0.0002
+Archive:/sstoascend.ks, 110:32 ,0366,@0341  ,push $tpitch,                                                       ,      1.2475,  4698,      0.0003
+Archive:/sstoascend.ks, 110:39 ,0367,@0342  ,push _KOSArgMarker_,                                                ,      0.6400,  4698,      0.0001
+Archive:/sstoascend.ks, 110:39 ,0368,@0343  ,call $acftpitch*,                                                   ,     11.9221,  4698,      0.0025
+Archive:/sstoascend.ks, 110:49 ,0369,@0344  ,push _KOSArgMarker_,                                                ,      0.8141,  4698,      0.0002
+Archive:/sstoascend.ks, 110:49 ,0370,@0345  ,call $fpa*,                                                         ,     10.9990,  4698,      0.0023
+Archive:/sstoascend.ks, 110:49 ,0371,@0346  ,call $pitchprotect*,                                                ,     22.4330,  4698,      0.0048
+Archive:/sstoascend.ks, 110:49 ,0372,@0347  ,store $tpitch,                                                      ,      3.8958,  4698,      0.0008
+Archive:/sstoascend.ks, 111:12 ,0373,@0348  ,push $tpitch,                                                       ,      1.2615,  4698,      0.0003
+Archive:/sstoascend.ks, 111:12 ,0374,@0349  ,return 1 deep,                                                      ,      5.0998,  4698,      0.0011
+Archive:/sstoascend.ks, 112:1  ,0375,@0350  ,popscope 1,                                                         ,      0.0000,     0,         NaN
+Archive:/sstoascend.ks, 112:1  ,0376,@0351  ,push 0,                                                             ,      0.0000,     0,         NaN
+Archive:/sstoascend.ks, 112:1  ,0377,@0352  ,return 0 deep,                                                      ,      0.0000,     0,         NaN
+Archive:/sstoascend.ks, 129:18 ,0378,keepfpa`0-38f0272b,pushscope 19 1,                                          ,      4.2997,  5214,      0.0008
+Archive:/sstoascend.ks, 130:5  ,0379,@0366  ,storelocal $targetfpa,                                              ,     16.8412,  5214,      0.0032
+Archive:/sstoascend.ks, 130:5  ,0380,@0367  ,storelocal $actualfpa,                                              ,      4.9728,  5214,      0.0010
+Archive:/sstoascend.ks, 130:5  ,0381,@0368  ,storelocal $acftpitch,                                              ,      4.5302,  5214,      0.0009
+Archive:/sstoascend.ks, 130:5  ,0382,@0369  ,argbottom,                                                          ,      1.2400,  5214,      0.0002
+Archive:/sstoascend.ks, 135:22 ,0383,@0370  ,push _KOSArgMarker_,                                                ,      0.9712,  5214,      0.0002
+Archive:/sstoascend.ks, 135:23 ,0384,@0371  ,push $targetfpa,                                                    ,      1.0423,  5214,      0.0002
+Archive:/sstoascend.ks, 135:36 ,0385,@0372  ,push _KOSArgMarker_,                                                ,      0.6483,  5214,      0.0001
+Archive:/sstoascend.ks, 135:37 ,0386,@0373  ,push $targetfpa,                                                    ,      1.0383,  5214,      0.0002
+Archive:/sstoascend.ks, 135:47 ,0387,@0374  ,push _KOSArgMarker_,                                                ,      0.6664,  5214,      0.0001
+Archive:/sstoascend.ks, 135:47 ,0388,@0375  ,call $acftpitch*,                                                   ,     12.7023,  5214,      0.0024
+Archive:/sstoascend.ks, 135:46 ,0389,@0376  ,add,                                                                ,     10.9931,  5214,      0.0021
+Archive:/sstoascend.ks, 135:57 ,0390,@0377  ,push $actualfpa,                                                    ,      1.3083,  5214,      0.0003
+Archive:/sstoascend.ks, 135:56 ,0391,@0378  ,sub,                                                                ,      8.9804,  5214,      0.0017
+Archive:/sstoascend.ks, 135:68 ,0392,@0379  ,push $targetfpa,                                                    ,      1.3035,  5214,      0.0003
+Archive:/sstoascend.ks, 135:78 ,0393,@0380  ,push 10,                                                            ,      2.5145,  5214,      0.0005
+Archive:/sstoascend.ks, 135:77 ,0394,@0381  ,add,                                                                ,      9.1052,  5214,      0.0017
+Archive:/sstoascend.ks, 135:77 ,0395,@0382  ,call min(),                                                         ,     16.1325,  5214,      0.0031
+Archive:/sstoascend.ks, 135:77 ,0396,@0383  ,call max(),                                                         ,     14.7221,  5214,      0.0028
+Archive:/sstoascend.ks, 135:77 ,0397,@0384  ,store $tpitch,                                                      ,      7.9318,  5214,      0.0015
+Archive:/sstoascend.ks, 136:31 ,0398,@0385  ,push _KOSArgMarker_,                                                ,      0.9738,  5214,      0.0002
+Archive:/sstoascend.ks, 136:32 ,0399,@0386  ,push $tpitch,                                                       ,      1.1571,  5214,      0.0002
+Archive:/sstoascend.ks, 136:39 ,0400,@0387  ,push _KOSArgMarker_,                                                ,      0.6666,  5214,      0.0001
+Archive:/sstoascend.ks, 136:39 ,0401,@0388  ,call $acftpitch*,                                                   ,     12.0883,  5214,      0.0023
+Archive:/sstoascend.ks, 136:49 ,0402,@0389  ,push $actualfpa,                                                    ,      1.3044,  5214,      0.0003
+Archive:/sstoascend.ks, 136:49 ,0403,@0390  ,call $pitchprotect*,                                                ,     28.1136,  5214,      0.0054
+Archive:/sstoascend.ks, 136:49 ,0404,@0391  ,store $tpitch,                                                      ,      4.3556,  5214,      0.0008
+Archive:/sstoascend.ks, 137:12 ,0405,@0392  ,push $tpitch,                                                       ,      1.2846,  5214,      0.0002
+Archive:/sstoascend.ks, 137:12 ,0406,@0393  ,return 1 deep,                                                      ,      5.5948,  5214,      0.0011
+Archive:/sstoascend.ks, 138:1  ,0407,@0394  ,popscope 1,                                                         ,      0.0000,     0,         NaN
+Archive:/sstoascend.ks, 138:1  ,0408,@0395  ,push 0,                                                             ,      0.0000,     0,         NaN
+Archive:/sstoascend.ks, 138:1  ,0409,@0396  ,return 0 deep,                                                      ,      0.0000,     0,         NaN
+Archive:/sstoascend.ks, 154:15 ,0410,flch`0-f1176012,pushscope 22 1,                                             ,      3.5782,  3972,      0.0009
+Archive:/sstoascend.ks, 155:5  ,0411,@0411  ,storelocal $targetspeed,                                            ,     12.9440,  3972,      0.0033
+Archive:/sstoascend.ks, 155:5  ,0412,@0412  ,storelocal $fpa,                                                    ,      4.0624,  3972,      0.0010
+Archive:/sstoascend.ks, 155:5  ,0413,@0413  ,storelocal $acftpitch,                                              ,      3.9616,  3972,      0.0010
+Archive:/sstoascend.ks, 155:5  ,0414,@0414  ,argbottom,                                                          ,      0.9923,  3972,      0.0002
+Archive:/sstoascend.ks, 160:22 ,0415,@0415  ,push _KOSArgMarker_,                                                ,      0.7504,  3972,      0.0002
+Archive:/sstoascend.ks, 160:23 ,0416,@0416  ,push _KOSArgMarker_,                                                ,      0.5316,  3972,      0.0001
+Archive:/sstoascend.ks, 160:23 ,0417,@0417  ,call $fpa*,                                                         ,      8.9370,  3972,      0.0023
+Archive:/sstoascend.ks, 160:28 ,0418,@0418  ,push _KOSArgMarker_,                                                ,      0.6496,  3972,      0.0002
+Archive:/sstoascend.ks, 160:28 ,0419,@0419  ,call $fpa*,                                                         ,      9.2812,  3972,      0.0023
+Archive:/sstoascend.ks, 160:35 ,0420,@0420  ,push $ship,                                                         ,      1.6422,  3972,      0.0004
+Archive:/sstoascend.ks, 160:35 ,0421,@0421  ,getmember groundspeed,                                              ,     37.6698,  3972,      0.0095
+Archive:/sstoascend.ks, 160:54 ,0422,@0422  ,push $targetspeed,                                                  ,      1.4255,  3972,      0.0004
+Archive:/sstoascend.ks, 160:52 ,0423,@0423  ,sub,                                                                ,      7.7873,  3972,      0.0020
+Archive:/sstoascend.ks, 160:67 ,0424,@0424  ,push 10,                                                            ,      2.3297,  3972,      0.0006
+Archive:/sstoascend.ks, 160:66 ,0425,@0425  ,div,                                                                ,      7.0629,  3972,      0.0018
+Archive:/sstoascend.ks, 160:32 ,0426,@0426  ,add,                                                                ,      6.2146,  3972,      0.0016
+Archive:/sstoascend.ks, 160:32 ,0427,@0427  ,call max(),                                                         ,     11.3003,  3972,      0.0028
+Archive:/sstoascend.ks, 160:32 ,0428,@0428  ,store $tpitch,                                                      ,      6.2433,  3972,      0.0016
+Archive:/sstoascend.ks, 161:31 ,0429,@0429  ,push _KOSArgMarker_,                                                ,      0.8157,  3972,      0.0002
+Archive:/sstoascend.ks, 161:32 ,0430,@0430  ,push $tpitch,                                                       ,      0.8888,  3972,      0.0002
+Archive:/sstoascend.ks, 161:39 ,0431,@0431  ,push _KOSArgMarker_,                                                ,      0.5172,  3972,      0.0001
+Archive:/sstoascend.ks, 161:39 ,0432,@0432  ,call $acftpitch*,                                                   ,      9.1707,  3972,      0.0023
+Archive:/sstoascend.ks, 161:49 ,0433,@0433  ,push _KOSArgMarker_,                                                ,      0.6748,  3972,      0.0002
+Archive:/sstoascend.ks, 161:49 ,0434,@0434  ,call $fpa*,                                                         ,      9.0254,  3972,      0.0023
+Archive:/sstoascend.ks, 161:49 ,0435,@0435  ,call $pitchprotect*,                                                ,     19.5474,  3972,      0.0049
+Archive:/sstoascend.ks, 161:49 ,0436,@0436  ,store $tpitch,                                                      ,      3.1429,  3972,      0.0008
+Archive:/sstoascend.ks, 162:12 ,0437,@0437  ,push $tpitch,                                                       ,      1.0047,  3972,      0.0003
+Archive:/sstoascend.ks, 162:12 ,0438,@0438  ,return 1 deep,                                                      ,      4.2472,  3972,      0.0011
+Archive:/sstoascend.ks, 163:1  ,0439,@0439  ,popscope 1,                                                         ,      0.0000,     0,         NaN
+Archive:/sstoascend.ks, 163:1  ,0440,@0440  ,push 0,                                                             ,      0.0000,     0,         NaN
+Archive:/sstoascend.ks, 163:1  ,0441,@0441  ,return 0 deep,                                                      ,      0.0000,     0,         NaN
+Archive:/sstoascend.ks,  -1:0  ,0442,@0001  ,testcancelled,                                                      ,     53.9682, 16314,      0.0033
+Archive:/sstoascend.ks,  -1:0  ,0443,@0002  ,br.false +3,                                                        ,     24.8997, 16314,      0.0015
+Archive:/sstoascend.ks,  -1:0  ,0444,@0003  ,push False,                                                         ,      0.0000,     0,         NaN
+Archive:/sstoascend.ks,  -1:0  ,0445,@0004  ,return 0 deep,                                                      ,      0.0000,     0,         NaN
+Archive:/sstoascend.ks,  -1:0  ,0446,@0005  ,push _KOSArgMarker_,                                                ,     10.0054, 16314,      0.0006
+Archive:/sstoascend.ks,  -1:0  ,0447,@0006  ,call $steering*,                                                    ,    189.9083, 16314,      0.0116
+Archive:/sstoascend.ks,  -1:0  ,0448,@0007  ,storeglobal $steering,                                              ,     68.8564, 16314,      0.0042
+Archive:/sstoascend.ks,  -1:0  ,0449,@0008  ,push True,                                                          ,      8.5431, 16314,      0.0005
+Archive:/sstoascend.ks,  -1:0  ,0450,@0009  ,return 0 deep,                                                      ,     51.0803, 16314,      0.0031
+Archive:/sstoascend.ks,  -1:0  ,0451,@0010  ,testcancelled,                                                      ,      2.6558,  2430,      0.0011
+Archive:/sstoascend.ks,  -1:0  ,0452,@0011  ,br.false +3,                                                        ,      0.6657,  2430,      0.0003
+Archive:/sstoascend.ks,  -1:0  ,0453,@0012  ,push False,                                                         ,      0.0000,     0,         NaN
+Archive:/sstoascend.ks,  -1:0  ,0454,@0013  ,return 0 deep,                                                      ,      0.0000,     0,         NaN
+Archive:/sstoascend.ks,  -1:0  ,0455,@0014  ,push _KOSArgMarker_,                                                ,      0.5927,  2430,      0.0002
+Archive:/sstoascend.ks,  -1:0  ,0456,@0015  ,call $wheelsteering*,                                               ,      8.1297,  2430,      0.0033
+Archive:/sstoascend.ks,  -1:0  ,0457,@0016  ,storeglobal $wheelsteering,                                         ,      5.6634,  2430,      0.0023
+Archive:/sstoascend.ks,  -1:0  ,0458,@0017  ,push True,                                                          ,      0.9489,  2430,      0.0004
+Archive:/sstoascend.ks,  -1:0  ,0459,@0018  ,return 0 deep,                                                      ,      6.7993,  2430,      0.0028
+Archive:/sstoascend.ks,  23:1  ,0460,@0019  ,nop,                                                                ,      0.0003,     1,      0.0003
+Archive:/sstoascend.ks,  24:1  ,0461,@0035  ,nop,                                                                ,      0.0003,     1,      0.0003
+Archive:/sstoascend.ks,  25:1  ,0462,@0051  ,nop,                                                                ,      0.0000,     1,      0.0000
+Archive:/sstoascend.ks,  27:1  ,0463,@0063  ,nop,                                                                ,      0.0000,     1,      0.0000
+Archive:/sstoascend.ks,  35:1  ,0464,@0079  ,nop,                                                                ,      0.0000,     1,      0.0000
+Archive:/sstoascend.ks,  86:1  ,0465,@0268  ,push $steering*,                                                    ,      0.0006,     1,      0.0006
+Archive:/sstoascend.ks,  86:1  ,0466,@0269  ,exists,                                                             ,      0.0030,     1,      0.0030
+Archive:/sstoascend.ks,  86:1  ,0467,@0270  ,br.true +4,                                                         ,      0.0009,     1,      0.0009
+Archive:/sstoascend.ks,  86:1  ,0468,@0271  ,push 310,                                                           ,      0.0003,     1,      0.0003
+Archive:/sstoascend.ks,  86:1  ,0469,@0272  ,store $steering*,                                                   ,      0.0079,     1,      0.0079
+Archive:/sstoascend.ks,  87:1  ,0470,@0283  ,push $wheelsteering*,                                               ,      0.0000,     1,      0.0000
+Archive:/sstoascend.ks,  87:1  ,0471,@0284  ,exists,                                                             ,      0.0009,     1,      0.0009
+Archive:/sstoascend.ks,  87:1  ,0472,@0285  ,br.true +4,                                                         ,      0.0003,     1,      0.0003
+Archive:/sstoascend.ks,  87:1  ,0473,@0286  ,push 317,                                                           ,      0.0000,     1,      0.0000
+Archive:/sstoascend.ks,  87:1  ,0474,@0287  ,store $wheelsteering*,                                              ,      0.0036,     1,      0.0036
+Archive:/sstoascend.ks,  11:1  ,0475,@0455  ,pushscope 1 0,                                                      ,      0.0009,     1,      0.0009
+Archive:/sstoascend.ks,  11:1  ,0476,@0456  ,pushdelegate 95 closure,                                            ,      0.0124,     1,      0.0124
+Archive:/sstoascend.ks,  11:1  ,0477,@0457  ,store $accelerometer*,                                              ,      0.0015,     1,      0.0015
+Archive:/sstoascend.ks,  11:1  ,0478,@0458  ,pushdelegate 137 closure,                                           ,      0.0048,     1,      0.0048
+Archive:/sstoascend.ks,  11:1  ,0479,@0459  ,store $pitchprotect*,                                               ,      0.0015,     1,      0.0015
+Archive:/sstoascend.ks,  11:1  ,0480,@0460  ,pushdelegate 320 closure,                                           ,      0.0036,     1,      0.0036
+Archive:/sstoascend.ks,  11:1  ,0481,@0461  ,store $maximisefpa*,                                                ,      0.0016,     1,      0.0016
+Archive:/sstoascend.ks,  11:1  ,0482,@0462  ,pushdelegate 378 closure,                                           ,      0.0045,     1,      0.0045
+Archive:/sstoascend.ks,  11:1  ,0483,@0463  ,store $keepfpa*,                                                    ,      0.0012,     1,      0.0012
+Archive:/sstoascend.ks,  11:1  ,0484,@0464  ,pushdelegate 410 closure,                                           ,      0.0054,     1,      0.0054
+Archive:/sstoascend.ks,  11:1  ,0485,@0465  ,store $flch*,                                                       ,      0.0009,     1,      0.0009
+Archive:/sstoascend.ks,  11:1  ,0486,@0466  ,argbottom,                                                          ,      0.0003,     1,      0.0003
+Archive:/sstoascend.ks,  11:1  ,0487,@0467  ,push _KOSArgMarker_,                                                ,      0.0003,     1,      0.0003
+Archive:/sstoascend.ks,  11:1  ,0488,@0468  ,call clearscreen(),                                                 ,      0.0190,     1,      0.0190
+Archive:/sstoascend.ks,  11:1  ,0489,@0469  ,pop,                                                                ,      0.0009,     1,      0.0009
+Archive:/sstoascend.ks,  12:5  ,0490,@0470  ,push $config,                                                       ,      0.0003,     1,      0.0003
+Archive:/sstoascend.ks,  12:19 ,0491,@0471  ,push 2000,                                                          ,      0.0003,     1,      0.0003
+Archive:/sstoascend.ks,  12:19 ,0492,@0472  ,setmember ipu,                                                      ,      0.0085,     1,      0.0085
+Archive:/sstoascend.ks,  13:1  ,0493,@0473  ,push _KOSArgMarker_,                                                ,      0.0000,     1,      0.0000
+Archive:/sstoascend.ks,  13:7  ,0494,@0474  ,push SSTO launch program. Roundowl Industries. 2019-01-29.,         ,      0.0006,     1,      0.0006
+Archive:/sstoascend.ks,  13:68 ,0495,@0475  ,push 0,                                                             ,      0.0003,     1,      0.0003
+Archive:/sstoascend.ks,  13:70 ,0496,@0476  ,push 1,                                                             ,      0.0003,     1,      0.0003
+Archive:/sstoascend.ks,  13:70 ,0497,@0477  ,call printat(),                                                     ,      0.0078,     1,      0.0078
+Archive:/sstoascend.ks,  13:70 ,0498,@0478  ,pop,                                                                ,      0.0004,     1,      0.0004
+Archive:/sstoascend.ks,  14:1  ,0499,@0479  ,push _KOSArgMarker_,                                                ,      0.0000,     1,      0.0000
+Archive:/sstoascend.ks,  14:7  ,0500,@0480  ,push 1) Taking off. Speed:,                                         ,      0.0003,     1,      0.0003
+Archive:/sstoascend.ks,  14:38 ,0501,@0481  ,push _KOSArgMarker_,                                                ,      0.0000,     1,      0.0000
+Archive:/sstoascend.ks,  14:39 ,0502,@0482  ,push $ship,                                                         ,      0.0003,     1,      0.0003
+Archive:/sstoascend.ks,  14:39 ,0503,@0483  ,getmember groundspeed,                                              ,      0.0896,     1,      0.0896
+Archive:/sstoascend.ks,  14:56 ,0504,@0484  ,push 2,                                                             ,      0.0003,     1,      0.0003
+Archive:/sstoascend.ks,  14:56 ,0505,@0485  ,call round(),                                                       ,      0.0036,     1,      0.0036
+Archive:/sstoascend.ks,  14:31 ,0506,@0486  ,add,                                                                ,      0.0051,     1,      0.0051
+Archive:/sstoascend.ks,  14:64 ,0507,@0487  ,push 0,                                                             ,      0.0003,     1,      0.0003
+Archive:/sstoascend.ks,  14:66 ,0508,@0488  ,push 2,                                                             ,      0.0000,     1,      0.0000
+Archive:/sstoascend.ks,  14:66 ,0509,@0489  ,call printat(),                                                     ,      0.0033,     1,      0.0033
+Archive:/sstoascend.ks,  14:66 ,0510,@0490  ,pop,                                                                ,      0.0000,     1,      0.0000
+Archive:/sstoascend.ks,  15:1  ,0511,@0491  ,push _KOSArgMarker_,                                                ,      0.0003,     1,      0.0003
+Archive:/sstoascend.ks,  15:7  ,0512,@0492  ,push    Pitch is held at 10 deg. Do not raise landing gear.,        ,      0.0003,     1,      0.0003
+Archive:/sstoascend.ks,  15:69 ,0513,@0493  ,push 0,                                                             ,      0.0004,     1,      0.0004
+Archive:/sstoascend.ks,  15:71 ,0514,@0494  ,push 3,                                                             ,      0.0003,     1,      0.0003
+Archive:/sstoascend.ks,  15:71 ,0515,@0495  ,call printat(),                                                     ,      0.0045,     1,      0.0045
+Archive:/sstoascend.ks,  15:71 ,0516,@0496  ,pop,                                                                ,      0.0000,     1,      0.0000
+Archive:/sstoascend.ks,  16:1  ,0517,@0497  ,push _KOSArgMarker_,                                                ,      0.0003,     1,      0.0003
+Archive:/sstoascend.ks,  16:7  ,0518,@0498  ,push 2) Will climb at 5 deg AoA to 5000 metres.,                    ,      0.0000,     1,      0.0000
+Archive:/sstoascend.ks,  16:57 ,0519,@0499  ,push 0,                                                             ,      0.0006,     1,      0.0006
+Archive:/sstoascend.ks,  16:59 ,0520,@0500  ,push 4,                                                             ,      0.0003,     1,      0.0003
+Archive:/sstoascend.ks,  16:59 ,0521,@0501  ,call printat(),                                                     ,      0.0033,     1,      0.0033
+Archive:/sstoascend.ks,  16:59 ,0522,@0502  ,pop,                                                                ,      0.0000,     1,      0.0000
+Archive:/sstoascend.ks,  18:1  ,0523,@0503  ,push _KOSArgMarker_,                                                ,      0.0000,     1,      0.0000
+Archive:/sstoascend.ks,  18:7  ,0524,@0504  ,push 3) Will accelerate with 5 deg FPA to 1200 m/s.,                ,      0.0003,     1,      0.0003
+Archive:/sstoascend.ks,  18:61 ,0525,@0505  ,push 0,                                                             ,      0.0003,     1,      0.0003
+Archive:/sstoascend.ks,  18:63 ,0526,@0506  ,push 6,                                                             ,      0.0003,     1,      0.0003
+Archive:/sstoascend.ks,  18:63 ,0527,@0507  ,call printat(),                                                     ,      0.0036,     1,      0.0036
+Archive:/sstoascend.ks,  18:63 ,0528,@0508  ,pop,                                                                ,      0.0003,     1,      0.0003
+Archive:/sstoascend.ks,  20:1  ,0529,@0509  ,push _KOSArgMarker_,                                                ,      0.0000,     1,      0.0000
+Archive:/sstoascend.ks,  20:7  ,0530,@0510  ,push 4) Will keep 1200 m/s and climb to space.,                     ,      0.0003,     1,      0.0003
+Archive:/sstoascend.ks,  20:56 ,0531,@0511  ,push 0,                                                             ,      0.0003,     1,      0.0003
+Archive:/sstoascend.ks,  20:58 ,0532,@0512  ,push 8,                                                             ,      0.0003,     1,      0.0003
+Archive:/sstoascend.ks,  20:58 ,0533,@0513  ,call printat(),                                                     ,      0.0040,     1,      0.0040
+Archive:/sstoascend.ks,  20:58 ,0534,@0514  ,pop,                                                                ,      0.0000,     1,      0.0000
+Archive:/sstoascend.ks,  23:1  ,0535,@0515  ,pushdelegate 21 closure,                                            ,      0.0042,     1,      0.0042
+Archive:/sstoascend.ks,  23:1  ,0536,@0516  ,storeglobal $acftpitch*,                                            ,      0.0018,     1,      0.0018
+Archive:/sstoascend.ks,  24:1  ,0537,@0517  ,pushdelegate 36 closure,                                            ,      0.0036,     1,      0.0036
+Archive:/sstoascend.ks,  24:1  ,0538,@0518  ,storeglobal $fpa*,                                                  ,      0.0015,     1,      0.0015
+Archive:/sstoascend.ks,  25:1  ,0539,@0519  ,pushdelegate 51 closure,                                            ,      0.0046,     1,      0.0046
+Archive:/sstoascend.ks,  25:1  ,0540,@0520  ,storeglobal $aoa*,                                                  ,      0.0006,     1,      0.0006
+Archive:/sstoascend.ks,  27:1  ,0541,@0521  ,pushdelegate 62 closure,                                            ,      0.0154,     1,      0.0154
+Archive:/sstoascend.ks,  27:1  ,0542,@0522  ,storeglobal $roll*,                                                 ,      0.0006,     1,      0.0006
+Archive:/sstoascend.ks,  31:18 ,0543,@0523  ,push $ship,                                                         ,      0.0000,     1,      0.0000
+Archive:/sstoascend.ks,  31:18 ,0544,@0524  ,getmember velocity,                                                 ,      0.0193,     1,      0.0193
+Archive:/sstoascend.ks,  31:18 ,0545,@0525  ,getmember orbit,                                                    ,      0.0069,     1,      0.0069
+Archive:/sstoascend.ks,  31:18 ,0546,@0526  ,storelocal $currvel,                                                ,      0.0015,     1,      0.0015
+Archive:/sstoascend.ks,  31:59 ,0547,@0527  ,push $time,                                                         ,      0.0000,     1,      0.0000
+Archive:/sstoascend.ks,  31:59 ,0548,@0528  ,getmember seconds,                                                  ,      0.0127,     1,      0.0127
+Archive:/sstoascend.ks,  31:59 ,0549,@0529  ,storelocal $currtime,                                               ,      0.0012,     1,      0.0012
+Archive:/sstoascend.ks,  32:18 ,0550,@0530  ,push $currvel,                                                      ,      0.0009,     1,      0.0009
+Archive:/sstoascend.ks,  32:18 ,0551,@0531  ,storelocal $prevvel,                                                ,      0.0015,     1,      0.0015
+Archive:/sstoascend.ks,  32:59 ,0552,@0532  ,push $currtime,                                                     ,      0.0003,     1,      0.0003
+Archive:/sstoascend.ks,  32:59 ,0553,@0533  ,storelocal $prevtime,                                               ,      0.0009,     1,      0.0009
+Archive:/sstoascend.ks,  35:1  ,0554,@0534  ,pushdelegate 77 closure,                                            ,      0.0042,     1,      0.0042
+Archive:/sstoascend.ks,  35:1  ,0555,@0535  ,storeglobal $gravitationalacc*,                                     ,      0.0009,     1,      0.0009
+Archive:/sstoascend.ks,  38:16 ,0556,@0536  ,push _KOSArgMarker_,                                                ,      0.0004,     1,      0.0004
+Archive:/sstoascend.ks,  38:17 ,0557,@0537  ,push 0,                                                             ,      0.0003,     1,      0.0003
+Archive:/sstoascend.ks,  38:20 ,0558,@0538  ,push 0,                                                             ,      0.0003,     1,      0.0003
+Archive:/sstoascend.ks,  38:23 ,0559,@0539  ,push 0,                                                             ,      0.0003,     1,      0.0003
+Archive:/sstoascend.ks,  38:23 ,0560,@0540  ,call v(),                                                           ,      0.0024,     1,      0.0024
+Archive:/sstoascend.ks,  38:23 ,0561,@0541  ,storeglobal $acc,                                                   ,      0.0006,     1,      0.0006
+Archive:/sstoascend.ks,  86:1  ,0562,@0542  ,pushdelegate 265 closure,                                           ,      0.0033,     1,      0.0033
+Archive:/sstoascend.ks,  86:1  ,0563,@0543  ,storeglobal $steering*,                                             ,      0.0006,     1,      0.0006
+Archive:/sstoascend.ks,  86:1  ,0564,@0544  ,push 442,                                                           ,      0.0000,     1,      0.0000
+Archive:/sstoascend.ks,  86:1  ,0565,@0545  ,addtrigger,                                                         ,      0.0018,     1,      0.0018
+Archive:/sstoascend.ks,  86:1  ,0566,@0546  ,push _KOSArgMarker_,                                                ,      0.0003,     1,      0.0003
+Archive:/sstoascend.ks,  86:1  ,0567,@0547  ,push steering,                                                      ,      0.0003,     1,      0.0003
+Archive:/sstoascend.ks,  86:1  ,0568,@0548  ,push True,                                                          ,      0.0000,     1,      0.0000
+Archive:/sstoascend.ks,  86:1  ,0569,@0549  ,call toggleflybywire(),                                             ,      0.0939,     1,      0.0939
+Archive:/sstoascend.ks,  86:1  ,0570,@0550  ,pop,                                                                ,      0.0003,     1,      0.0003
+Archive:/sstoascend.ks,  87:1  ,0571,@0551  ,pushdelegate 313 closure,                                           ,      0.0051,     1,      0.0051
+Archive:/sstoascend.ks,  87:1  ,0572,@0552  ,storeglobal $wheelsteering*,                                        ,      0.0006,     1,      0.0006
+Archive:/sstoascend.ks,  87:1  ,0573,@0553  ,push 451,                                                           ,      0.0003,     1,      0.0003
+Archive:/sstoascend.ks,  87:1  ,0574,@0554  ,addtrigger,                                                         ,      0.0012,     1,      0.0012
+Archive:/sstoascend.ks,  87:1  ,0575,@0555  ,push _KOSArgMarker_,                                                ,      0.0000,     1,      0.0000
+Archive:/sstoascend.ks,  87:1  ,0576,@0556  ,push wheelsteering,                                                 ,      0.0003,     1,      0.0003
+Archive:/sstoascend.ks,  87:1  ,0577,@0557  ,push True,                                                          ,      0.0003,     1,      0.0003
+Archive:/sstoascend.ks,  87:1  ,0578,@0558  ,call toggleflybywire(),                                             ,      0.0398,     1,      0.0398
+Archive:/sstoascend.ks,  87:1  ,0579,@0559  ,pop,                                                                ,      0.0003,     1,      0.0003
+Archive:/sstoascend.ks,  91:7  ,0580,@0560  ,push $ship,                                                         ,      0.2235,   406,      0.0006
+Archive:/sstoascend.ks,  91:7  ,0581,@0561  ,getmember verticalspeed,                                            ,     17.8973,   406,      0.0441
+Archive:/sstoascend.ks,  91:28 ,0582,@0562  ,push 10,                                                            ,      0.2334,   406,      0.0006
+Archive:/sstoascend.ks,  91:26 ,0583,@0563  ,gt,                                                                 ,      0.6132,   406,      0.0015
+Archive:/sstoascend.ks,  91:26 ,0584,@0564  ,not,                                                                ,      0.5456,   406,      0.0013
+Archive:/sstoascend.ks,  91:26 ,0585,@0565  ,br.false +18,                                                       ,      0.1315,   406,      0.0003
+Archive:/sstoascend.ks,  91:31 ,0586,@0566  ,pushscope 15 1,                                                     ,      0.2692,   405,      0.0007
+Archive:/sstoascend.ks,  92:5  ,0587,@0567  ,push _KOSArgMarker_,                                                ,      0.1457,   405,      0.0004
+Archive:/sstoascend.ks,  92:11 ,0588,@0568  ,push 1) Taking off. Speed:,                                         ,      0.2693,   405,      0.0007
+Archive:/sstoascend.ks,  92:42 ,0589,@0569  ,push _KOSArgMarker_,                                                ,      0.0836,   405,      0.0002
+Archive:/sstoascend.ks,  92:43 ,0590,@0570  ,push $ship,                                                         ,      0.1291,   405,      0.0003
+Archive:/sstoascend.ks,  92:43 ,0591,@0571  ,getmember groundspeed,                                              ,      4.1992,   405,      0.0104
+Archive:/sstoascend.ks,  92:60 ,0592,@0572  ,push 1,                                                             ,      0.1706,   405,      0.0004
+Archive:/sstoascend.ks,  92:60 ,0593,@0573  ,call round(),                                                       ,      1.8622,   405,      0.0046
+Archive:/sstoascend.ks,  92:35 ,0594,@0574  ,add,                                                                ,      2.1420,   405,      0.0053
+Archive:/sstoascend.ks,  92:68 ,0595,@0575  ,push 0,                                                             ,      0.1626,   405,      0.0004
+Archive:/sstoascend.ks,  92:70 ,0596,@0576  ,push 2,                                                             ,      0.1555,   405,      0.0004
+Archive:/sstoascend.ks,  92:70 ,0597,@0577  ,call printat(),                                                     ,      3.1534,   405,      0.0078
+Archive:/sstoascend.ks,  92:70 ,0598,@0578  ,pop,                                                                ,      0.1244,   405,      0.0003
+Archive:/sstoascend.ks,  93:10 ,0599,@0579  ,push 0.1,                                                           ,      0.1481,   405,      0.0004
+Archive:/sstoascend.ks,  93:10 ,0600,@0580  ,wait,                                                               ,      0.4079,   405,      0.0010
+Archive:/sstoascend.ks,  94:1  ,0601,@0581  ,popscope 1,                                                         ,      0.8977,   405,      0.0022
+Archive:/sstoascend.ks,  94:1  ,0602,@0582  ,jump -22,                                                           ,      0.1512,   405,      0.0004
+Archive:/sstoascend.ks,  95:1  ,0603,@0583  ,push _KOSArgMarker_,                                                ,      0.0006,     1,      0.0006
+Archive:/sstoascend.ks,  95:7  ,0604,@0584  ,push 1) Taking off. Positive rate achieved at:,                     ,      0.0006,     1,      0.0006
+Archive:/sstoascend.ks,  95:58 ,0605,@0585  ,push _KOSArgMarker_,                                                ,      0.0000,     1,      0.0000
+Archive:/sstoascend.ks,  95:59 ,0606,@0586  ,push $ship,                                                         ,      0.0003,     1,      0.0003
+Archive:/sstoascend.ks,  95:59 ,0607,@0587  ,getmember groundspeed,                                              ,      0.0090,     1,      0.0090
+Archive:/sstoascend.ks,  95:76 ,0608,@0588  ,push 1,                                                             ,      0.0007,     1,      0.0007
+Archive:/sstoascend.ks,  95:76 ,0609,@0589  ,call round(),                                                       ,      0.0036,     1,      0.0036
+Archive:/sstoascend.ks,  95:51 ,0610,@0590  ,add,                                                                ,      0.0054,     1,      0.0054
+Archive:/sstoascend.ks,  95:81 ,0611,@0591  ,push  m/s.,                                                         ,      0.0000,     1,      0.0000
+Archive:/sstoascend.ks,  95:79 ,0612,@0592  ,add,                                                                ,      0.0009,     1,      0.0009
+Archive:/sstoascend.ks,  95:94 ,0613,@0593  ,push 0,                                                             ,      0.0018,     1,      0.0018
+Archive:/sstoascend.ks,  95:96 ,0614,@0594  ,push 2,                                                             ,      0.0006,     1,      0.0006
+Archive:/sstoascend.ks,  95:96 ,0615,@0595  ,call printat(),                                                     ,      0.0106,     1,      0.0106
+Archive:/sstoascend.ks,  95:96 ,0616,@0596  ,pop,                                                                ,      0.0003,     1,      0.0003
+Archive:/sstoascend.ks,  96:1  ,0617,@0597  ,push _KOSArgMarker_,                                                ,      0.0003,     1,      0.0003
+Archive:/sstoascend.ks,  96:1  ,0618,@0598  ,push wheelsteering,                                                 ,      0.0003,     1,      0.0003
+Archive:/sstoascend.ks,  96:1  ,0619,@0599  ,push False,                                                         ,      0.0003,     1,      0.0003
+Archive:/sstoascend.ks,  96:1  ,0620,@0600  ,call toggleflybywire(),                                             ,      0.1122,     1,      0.1122
+Archive:/sstoascend.ks,  96:1  ,0621,@0601  ,pop,                                                                ,      0.0006,     1,      0.0006
+Archive:/sstoascend.ks,  96:1  ,0622,@0602  ,push 451,                                                           ,      0.0003,     1,      0.0003
+Archive:/sstoascend.ks,  96:1  ,0623,@0603  ,removetrigger,                                                      ,      0.0028,     1,      0.0028
+Archive:/sstoascend.ks,  96:1  ,0624,@0604  ,push 317,                                                           ,      0.0003,     1,      0.0003
+Archive:/sstoascend.ks,  96:1  ,0625,@0605  ,store $wheelsteering*,                                              ,      0.0033,     1,      0.0033
+Archive:/sstoascend.ks,  97:1  ,0626,@0606  ,push _KOSArgMarker_,                                                ,      0.0000,     1,      0.0000
+Archive:/sstoascend.ks,  97:1  ,0627,@0607  ,push steering,                                                      ,      0.0003,     1,      0.0003
+Archive:/sstoascend.ks,  97:1  ,0628,@0608  ,push False,                                                         ,      0.0006,     1,      0.0006
+Archive:/sstoascend.ks,  97:1  ,0629,@0609  ,call toggleflybywire(),                                             ,      0.0401,     1,      0.0401
+Archive:/sstoascend.ks,  97:1  ,0630,@0610  ,pop,                                                                ,      0.0003,     1,      0.0003
+Archive:/sstoascend.ks,  97:1  ,0631,@0611  ,push 442,                                                           ,      0.0003,     1,      0.0003
+Archive:/sstoascend.ks,  97:1  ,0632,@0612  ,removetrigger,                                                      ,      0.0042,     1,      0.0042
+Archive:/sstoascend.ks,  97:1  ,0633,@0613  ,push 310,                                                           ,      0.0004,     1,      0.0004
+Archive:/sstoascend.ks,  97:1  ,0634,@0614  ,store $steering*,                                                   ,      0.0018,     1,      0.0018
+Archive:/sstoascend.ks,  98:1  ,0635,@0615  ,push _KOSArgMarker_,                                                ,      0.0003,     1,      0.0003
+Archive:/sstoascend.ks,  98:7  ,0636,@0616  ,push    It is now safe to raise the landing gear. Retracting.,      ,      0.0003,     1,      0.0003
+Archive:/sstoascend.ks,  98:71 ,0637,@0617  ,push 0,                                                             ,      0.0003,     1,      0.0003
+Archive:/sstoascend.ks,  98:73 ,0638,@0618  ,push 3,                                                             ,      0.0003,     1,      0.0003
+Archive:/sstoascend.ks,  98:73 ,0639,@0619  ,call printat(),                                                     ,      0.0054,     1,      0.0054
+Archive:/sstoascend.ks,  98:73 ,0640,@0620  ,pop,                                                                ,      0.0000,     1,      0.0000
+Archive:/sstoascend.ks,  99:6  ,0641,@0621  ,push False,                                                         ,      0.0003,     1,      0.0003
+Archive:/sstoascend.ks,  99:6  ,0642,@0622  ,store $gear,                                                        ,      0.4997,     1,      0.4997
+Archive:/sstoascend.ks, 115:1  ,0643,@0623  ,pushdelegate 272 closure,                                           ,      0.0124,     1,      0.0124
+Archive:/sstoascend.ks, 115:1  ,0644,@0624  ,storeglobal $steering*,                                             ,      0.0012,     1,      0.0012
+Archive:/sstoascend.ks, 115:1  ,0645,@0625  ,push 442,                                                           ,      0.0003,     1,      0.0003
+Archive:/sstoascend.ks, 115:1  ,0646,@0626  ,addtrigger,                                                         ,      0.0015,     1,      0.0015
+Archive:/sstoascend.ks, 115:1  ,0647,@0627  ,push _KOSArgMarker_,                                                ,      0.0003,     1,      0.0003
+Archive:/sstoascend.ks, 115:1  ,0648,@0628  ,push steering,                                                      ,      0.0003,     1,      0.0003
+Archive:/sstoascend.ks, 115:1  ,0649,@0629  ,push True,                                                          ,      0.0003,     1,      0.0003
+Archive:/sstoascend.ks, 115:1  ,0650,@0630  ,call toggleflybywire(),                                             ,      0.0489,     1,      0.0489
+Archive:/sstoascend.ks, 115:1  ,0651,@0631  ,pop,                                                                ,      0.0003,     1,      0.0003
+Archive:/sstoascend.ks, 120:7  ,0652,@0632  ,push $ship,                                                         ,      0.4146,   784,      0.0005
+Archive:/sstoascend.ks, 120:7  ,0653,@0633  ,getmember altitude,                                                 ,      8.2474,   784,      0.0105
+Archive:/sstoascend.ks, 120:23 ,0654,@0634  ,push 5000,                                                          ,      0.3993,   784,      0.0005
+Archive:/sstoascend.ks, 120:21 ,0655,@0635  ,gt,                                                                 ,      0.4910,   784,      0.0006
+Archive:/sstoascend.ks, 120:21 ,0656,@0636  ,not,                                                                ,      0.9089,   784,      0.0012
+Archive:/sstoascend.ks, 120:21 ,0657,@0637  ,br.false +12,                                                       ,      0.2133,   784,      0.0003
+Archive:/sstoascend.ks, 120:28 ,0658,@0638  ,pushscope 18 1,                                                     ,      0.4827,   783,      0.0006
+Archive:/sstoascend.ks, 121:5  ,0659,@0639  ,push _KOSArgMarker_,                                                ,      0.1983,   783,      0.0003
+Archive:/sstoascend.ks, 121:11 ,0660,@0640  ,push 2) Climbing to 5000 metres.,                                   ,      0.1869,   783,      0.0002
+Archive:/sstoascend.ks, 121:46 ,0661,@0641  ,push 0,                                                             ,      0.2630,   783,      0.0003
+Archive:/sstoascend.ks, 121:48 ,0662,@0642  ,push 4,                                                             ,      0.2546,   783,      0.0003
+Archive:/sstoascend.ks, 121:48 ,0663,@0643  ,call printat(),                                                     ,      3.3597,   783,      0.0043
+Archive:/sstoascend.ks, 121:48 ,0664,@0644  ,pop,                                                                ,      0.1673,   783,      0.0002
+Archive:/sstoascend.ks, 123:10 ,0665,@0645  ,push 0.1,                                                           ,      0.2822,   783,      0.0004
+Archive:/sstoascend.ks, 123:10 ,0666,@0646  ,wait,                                                               ,      0.7807,   783,      0.0010
+Archive:/sstoascend.ks, 124:1  ,0667,@0647  ,popscope 1,                                                         ,      1.5842,   783,      0.0020
+Archive:/sstoascend.ks, 124:1  ,0668,@0648  ,jump -16,                                                           ,      0.2725,   783,      0.0003
+Archive:/sstoascend.ks, 125:1  ,0669,@0649  ,push _KOSArgMarker_,                                                ,      0.0000,     1,      0.0000
+Archive:/sstoascend.ks, 125:7  ,0670,@0650  ,push 2) Successfully climbed to 5000 metres.,                       ,      0.0003,     1,      0.0003
+Archive:/sstoascend.ks, 125:54 ,0671,@0651  ,push 0,                                                             ,      0.0006,     1,      0.0006
+Archive:/sstoascend.ks, 125:56 ,0672,@0652  ,push 4,                                                             ,      0.0003,     1,      0.0003
+Archive:/sstoascend.ks, 125:56 ,0673,@0653  ,call printat(),                                                     ,      0.0036,     1,      0.0036
+Archive:/sstoascend.ks, 125:56 ,0674,@0654  ,pop,                                                                ,      0.0003,     1,      0.0003
+Archive:/sstoascend.ks, 126:1  ,0675,@0655  ,push _KOSArgMarker_,                                                ,      0.0003,     1,      0.0003
+Archive:/sstoascend.ks, 126:7  ,0676,@0656  ,push    Speed at 5000 metres was: ,                                 ,      0.0003,     1,      0.0003
+Archive:/sstoascend.ks, 126:46 ,0677,@0657  ,push _KOSArgMarker_,                                                ,      0.0000,     1,      0.0000
+Archive:/sstoascend.ks, 126:47 ,0678,@0658  ,push $ship,                                                         ,      0.0003,     1,      0.0003
+Archive:/sstoascend.ks, 126:47 ,0679,@0659  ,getmember groundspeed,                                              ,      0.0078,     1,      0.0078
+Archive:/sstoascend.ks, 126:64 ,0680,@0660  ,push 1,                                                             ,      0.0003,     1,      0.0003
+Archive:/sstoascend.ks, 126:64 ,0681,@0661  ,call round(),                                                       ,      0.0031,     1,      0.0031
+Archive:/sstoascend.ks, 126:39 ,0682,@0662  ,add,                                                                ,      0.0036,     1,      0.0036
+Archive:/sstoascend.ks, 126:69 ,0683,@0663  ,push     ,                                                          ,      0.0003,     1,      0.0003
+Archive:/sstoascend.ks, 126:67 ,0684,@0664  ,add,                                                                ,      0.0009,     1,      0.0009
+Archive:/sstoascend.ks, 126:81 ,0685,@0665  ,push 0,                                                             ,      0.0003,     1,      0.0003
+Archive:/sstoascend.ks, 126:83 ,0686,@0666  ,push 5,                                                             ,      0.0003,     1,      0.0003
+Archive:/sstoascend.ks, 126:83 ,0687,@0667  ,call printat(),                                                     ,      0.0042,     1,      0.0042
+Archive:/sstoascend.ks, 126:83 ,0688,@0668  ,pop,                                                                ,      0.0003,     1,      0.0003
+Archive:/sstoascend.ks, 127:1  ,0689,@0669  ,push _KOSArgMarker_,                                                ,      0.0000,     1,      0.0000
+Archive:/sstoascend.ks, 127:1  ,0690,@0670  ,push steering,                                                      ,      0.0003,     1,      0.0003
+Archive:/sstoascend.ks, 127:1  ,0691,@0671  ,push False,                                                         ,      0.0003,     1,      0.0003
+Archive:/sstoascend.ks, 127:1  ,0692,@0672  ,call toggleflybywire(),                                             ,      0.1056,     1,      0.1056
+Archive:/sstoascend.ks, 127:1  ,0693,@0673  ,pop,                                                                ,      0.0003,     1,      0.0003
+Archive:/sstoascend.ks, 127:1  ,0694,@0674  ,push 442,                                                           ,      0.0003,     1,      0.0003
+Archive:/sstoascend.ks, 127:1  ,0695,@0675  ,removetrigger,                                                      ,      0.0033,     1,      0.0033
+Archive:/sstoascend.ks, 127:1  ,0696,@0676  ,push 310,                                                           ,      0.0004,     1,      0.0004
+Archive:/sstoascend.ks, 127:1  ,0697,@0677  ,store $steering*,                                                   ,      0.0015,     1,      0.0015
+Archive:/sstoascend.ks, 141:1  ,0698,@0678  ,pushdelegate 284 closure,                                           ,      0.0078,     1,      0.0078
+Archive:/sstoascend.ks, 141:1  ,0699,@0679  ,storeglobal $steering*,                                             ,      0.0006,     1,      0.0006
+Archive:/sstoascend.ks, 141:1  ,0700,@0680  ,push 442,                                                           ,      0.0003,     1,      0.0003
+Archive:/sstoascend.ks, 141:1  ,0701,@0681  ,addtrigger,                                                         ,      0.0012,     1,      0.0012
+Archive:/sstoascend.ks, 141:1  ,0702,@0682  ,push _KOSArgMarker_,                                                ,      0.0003,     1,      0.0003
+Archive:/sstoascend.ks, 141:1  ,0703,@0683  ,push steering,                                                      ,      0.0000,     1,      0.0000
+Archive:/sstoascend.ks, 141:1  ,0704,@0684  ,push True,                                                          ,      0.0015,     1,      0.0015
+Archive:/sstoascend.ks, 141:1  ,0705,@0685  ,call toggleflybywire(),                                             ,      0.0377,     1,      0.0377
+Archive:/sstoascend.ks, 141:1  ,0706,@0686  ,pop,                                                                ,      0.0003,     1,      0.0003
+Archive:/sstoascend.ks, 144:7  ,0707,@0687  ,push $ship,                                                         ,      0.5101,   870,      0.0006
+Archive:/sstoascend.ks, 144:7  ,0708,@0688  ,getmember groundspeed,                                              ,      9.2361,   870,      0.0106
+Archive:/sstoascend.ks, 144:26 ,0709,@0689  ,push 1000,                                                          ,      0.5495,   870,      0.0006
+Archive:/sstoascend.ks, 144:24 ,0710,@0690  ,gt,                                                                 ,      0.5143,   870,      0.0006
+Archive:/sstoascend.ks, 144:24 ,0711,@0691  ,not,                                                                ,      0.9921,   870,      0.0011
+Archive:/sstoascend.ks, 144:24 ,0712,@0692  ,br.false +40,                                                       ,      0.2443,   870,      0.0003
+Archive:/sstoascend.ks, 144:31 ,0713,@0693  ,pushscope 21 1,                                                     ,      0.5473,   869,      0.0006
+Archive:/sstoascend.ks, 145:5  ,0714,@0694  ,push _KOSArgMarker_,                                                ,      0.2409,   869,      0.0003
+Archive:/sstoascend.ks, 145:11 ,0715,@0695  ,push 3) Accelerating with 5 deg FPA to 1200 m/s.,                   ,      0.2120,   869,      0.0002
+Archive:/sstoascend.ks, 145:62 ,0716,@0696  ,push 0,                                                             ,      0.4380,   869,      0.0005
+Archive:/sstoascend.ks, 145:64 ,0717,@0697  ,push 6,                                                             ,      0.4059,   869,      0.0005
+Archive:/sstoascend.ks, 145:64 ,0718,@0698  ,call printat(),                                                     ,      4.1863,   869,      0.0048
+Archive:/sstoascend.ks, 145:64 ,0719,@0699  ,pop,                                                                ,      0.1972,   869,      0.0002
+Archive:/sstoascend.ks, 146:5  ,0720,@0700  ,push _KOSArgMarker_,                                                ,      0.1393,   869,      0.0002
+Archive:/sstoascend.ks, 146:11 ,0721,@0701  ,push    Alt: ,                                                      ,      0.3023,   869,      0.0003
+Archive:/sstoascend.ks, 146:29 ,0722,@0702  ,push _KOSArgMarker_,                                                ,      0.1145,   869,      0.0001
+Archive:/sstoascend.ks, 146:30 ,0723,@0703  ,push $ship,                                                         ,      0.1823,   869,      0.0002
+Archive:/sstoascend.ks, 146:30 ,0724,@0704  ,getmember altitude,                                                 ,      8.0104,   869,      0.0092
+Archive:/sstoascend.ks, 146:44 ,0725,@0705  ,push 0,                                                             ,      0.3586,   869,      0.0004
+Archive:/sstoascend.ks, 146:44 ,0726,@0706  ,call round(),                                                       ,      2.1016,   869,      0.0024
+Archive:/sstoascend.ks, 146:22 ,0727,@0707  ,add,                                                                ,      1.6840,   869,      0.0019
+Archive:/sstoascend.ks, 146:49 ,0728,@0708  ,push  FPA: ,                                                        ,      0.2101,   869,      0.0002
+Archive:/sstoascend.ks, 146:47 ,0729,@0709  ,add,                                                                ,      1.2367,   869,      0.0014
+Archive:/sstoascend.ks, 146:65 ,0730,@0710  ,push _KOSArgMarker_,                                                ,      0.1497,   869,      0.0002
+Archive:/sstoascend.ks, 146:66 ,0731,@0711  ,push _KOSArgMarker_,                                                ,      0.1494,   869,      0.0002
+Archive:/sstoascend.ks, 146:66 ,0732,@0712  ,call $fpa*,                                                         ,      2.1823,   869,      0.0025
+Archive:/sstoascend.ks, 146:70 ,0733,@0713  ,push 2,                                                             ,      0.3397,   869,      0.0004
+Archive:/sstoascend.ks, 146:70 ,0734,@0714  ,call round(),                                                       ,      2.0388,   869,      0.0023
+Archive:/sstoascend.ks, 146:58 ,0735,@0715  ,add,                                                                ,      2.1296,   869,      0.0025
+Archive:/sstoascend.ks, 146:75 ,0736,@0716  ,push  Speed: ,                                                      ,      0.3176,   869,      0.0004
+Archive:/sstoascend.ks, 146:73 ,0737,@0717  ,add,                                                                ,      1.2014,   869,      0.0014
+Archive:/sstoascend.ks, 146:93 ,0738,@0718  ,push _KOSArgMarker_,                                                ,      0.1215,   869,      0.0001
+Archive:/sstoascend.ks, 146:94 ,0739,@0719  ,push $ship,                                                         ,      0.1896,   869,      0.0002
+Archive:/sstoascend.ks, 146:94 ,0740,@0720  ,getmember groundspeed,                                              ,      7.8355,   869,      0.0090
+Archive:/sstoascend.ks, 146:111,0741,@0721  ,push 1,                                                             ,      0.3607,   869,      0.0004
+Archive:/sstoascend.ks, 146:111,0742,@0722  ,call round(),                                                       ,      1.8877,   869,      0.0022
+Archive:/sstoascend.ks, 146:86 ,0743,@0723  ,add,                                                                ,      1.6814,   869,      0.0019
+Archive:/sstoascend.ks, 146:119,0744,@0724  ,push 0,                                                             ,      0.3354,   869,      0.0004
+Archive:/sstoascend.ks, 146:121,0745,@0725  ,push 7,                                                             ,      0.2990,   869,      0.0003
+Archive:/sstoascend.ks, 146:121,0746,@0726  ,call printat(),                                                     ,      3.5239,   869,      0.0041
+Archive:/sstoascend.ks, 146:121,0747,@0727  ,pop,                                                                ,      0.1900,   869,      0.0002
+Archive:/sstoascend.ks, 147:10 ,0748,@0728  ,push 0.1,                                                           ,      0.3736,   869,      0.0004
+Archive:/sstoascend.ks, 147:10 ,0749,@0729  ,wait,                                                               ,      0.8831,   869,      0.0010
+Archive:/sstoascend.ks, 148:1  ,0750,@0730  ,popscope 1,                                                         ,      1.8117,   869,      0.0021
+Archive:/sstoascend.ks, 148:1  ,0751,@0731  ,jump -44,                                                           ,      0.2964,   869,      0.0003
+Archive:/sstoascend.ks, 149:1  ,0752,@0732  ,push _KOSArgMarker_,                                                ,      0.0003,     1,      0.0003
+Archive:/sstoascend.ks, 149:7  ,0753,@0733  ,push 3) Successfully accelerated to 1000 m/s.   ,                   ,      0.0003,     1,      0.0003
+Archive:/sstoascend.ks, 149:58 ,0754,@0734  ,push 0,                                                             ,      0.0003,     1,      0.0003
+Archive:/sstoascend.ks, 149:60 ,0755,@0735  ,push 6,                                                             ,      0.0003,     1,      0.0003
+Archive:/sstoascend.ks, 149:60 ,0756,@0736  ,call printat(),                                                     ,      0.0070,     1,      0.0070
+Archive:/sstoascend.ks, 149:60 ,0757,@0737  ,pop,                                                                ,      0.0003,     1,      0.0003
+Archive:/sstoascend.ks, 150:1  ,0758,@0738  ,push _KOSArgMarker_,                                                ,      0.0000,     1,      0.0000
+Archive:/sstoascend.ks, 150:7  ,0759,@0739  ,push    Altitude where 1200 m/s were achieved was ,                 ,      0.0003,     1,      0.0003
+Archive:/sstoascend.ks, 150:62 ,0760,@0740  ,push _KOSArgMarker_,                                                ,      0.0000,     1,      0.0000
+Archive:/sstoascend.ks, 150:63 ,0761,@0741  ,push $ship,                                                         ,      0.0000,     1,      0.0000
+Archive:/sstoascend.ks, 150:63 ,0762,@0742  ,getmember altitude,                                                 ,      0.0084,     1,      0.0084
+Archive:/sstoascend.ks, 150:77 ,0763,@0743  ,push 0,                                                             ,      0.0003,     1,      0.0003
+Archive:/sstoascend.ks, 150:77 ,0764,@0744  ,call round(),                                                       ,      0.0019,     1,      0.0019
+Archive:/sstoascend.ks, 150:55 ,0765,@0745  ,add,                                                                ,      0.0015,     1,      0.0015
+Archive:/sstoascend.ks, 150:82 ,0766,@0746  ,push  metres.,                                                      ,      0.0000,     1,      0.0000
+Archive:/sstoascend.ks, 150:80 ,0767,@0747  ,add,                                                                ,      0.0009,     1,      0.0009
+Archive:/sstoascend.ks, 150:98 ,0768,@0748  ,push 0,                                                             ,      0.0006,     1,      0.0006
+Archive:/sstoascend.ks, 150:100,0769,@0749  ,push 7,                                                             ,      0.0000,     1,      0.0000
+Archive:/sstoascend.ks, 150:100,0770,@0750  ,call printat(),                                                     ,      0.0042,     1,      0.0042
+Archive:/sstoascend.ks, 150:100,0771,@0751  ,pop,                                                                ,      0.0000,     1,      0.0000
+Archive:/sstoascend.ks, 151:1  ,0772,@0752  ,push _KOSArgMarker_,                                                ,      0.0000,     1,      0.0000
+Archive:/sstoascend.ks, 151:1  ,0773,@0753  ,push steering,                                                      ,      0.0003,     1,      0.0003
+Archive:/sstoascend.ks, 151:1  ,0774,@0754  ,push False,                                                         ,      0.0009,     1,      0.0009
+Archive:/sstoascend.ks, 151:1  ,0775,@0755  ,call toggleflybywire(),                                             ,      0.0999,     1,      0.0999
+Archive:/sstoascend.ks, 151:1  ,0776,@0756  ,pop,                                                                ,      0.0006,     1,      0.0006
+Archive:/sstoascend.ks, 151:1  ,0777,@0757  ,push 442,                                                           ,      0.0003,     1,      0.0003
+Archive:/sstoascend.ks, 151:1  ,0778,@0758  ,removetrigger,                                                      ,      0.0030,     1,      0.0030
+Archive:/sstoascend.ks, 151:1  ,0779,@0759  ,push 310,                                                           ,      0.0000,     1,      0.0000
+Archive:/sstoascend.ks, 151:1  ,0780,@0760  ,store $steering*,                                                   ,      0.0015,     1,      0.0015
+Archive:/sstoascend.ks, 166:1  ,0781,@0761  ,pushdelegate 297 closure,                                           ,      0.0079,     1,      0.0079
+Archive:/sstoascend.ks, 166:1  ,0782,@0762  ,storeglobal $steering*,                                             ,      0.0003,     1,      0.0003
+Archive:/sstoascend.ks, 166:1  ,0783,@0763  ,push 442,                                                           ,      0.0000,     1,      0.0000
+Archive:/sstoascend.ks, 166:1  ,0784,@0764  ,addtrigger,                                                         ,      0.0012,     1,      0.0012
+Archive:/sstoascend.ks, 166:1  ,0785,@0765  ,push _KOSArgMarker_,                                                ,      0.0000,     1,      0.0000
+Archive:/sstoascend.ks, 166:1  ,0786,@0766  ,push steering,                                                      ,      0.0003,     1,      0.0003
+Archive:/sstoascend.ks, 166:1  ,0787,@0767  ,push True,                                                          ,      0.0003,     1,      0.0003
+Archive:/sstoascend.ks, 166:1  ,0788,@0768  ,call toggleflybywire(),                                             ,      0.0365,     1,      0.0365
+Archive:/sstoascend.ks, 166:1  ,0789,@0769  ,pop,                                                                ,      0.0006,     1,      0.0006
+Archive:/sstoascend.ks, 169:7  ,0790,@0770  ,push $ship,                                                         ,      0.4214,   663,      0.0006
+Archive:/sstoascend.ks, 169:7  ,0791,@0771  ,getmember apoapsis,                                                 ,      7.1092,   663,      0.0107
+Archive:/sstoascend.ks, 169:23 ,0792,@0772  ,push 75000,                                                         ,      0.3485,   663,      0.0005
+Archive:/sstoascend.ks, 169:21 ,0793,@0773  ,gt,                                                                 ,      0.3948,   663,      0.0006
+Archive:/sstoascend.ks, 169:21 ,0794,@0774  ,not,                                                                ,      0.7628,   663,      0.0012
+Archive:/sstoascend.ks, 169:21 ,0795,@0775  ,br.false +40,                                                       ,      0.1786,   663,      0.0003
+Archive:/sstoascend.ks, 169:29 ,0796,@0776  ,pushscope 24 1,                                                     ,      0.5031,   662,      0.0008
+Archive:/sstoascend.ks, 170:5  ,0797,@0777  ,push _KOSArgMarker_,                                                ,      0.1833,   662,      0.0003
+Archive:/sstoascend.ks, 170:11 ,0798,@0778  ,push 4) Keeping more than 1200 m/s to space. Attitude limit 30 deg.,,      0.2140,   662,      0.0003
+Archive:/sstoascend.ks, 170:81 ,0799,@0779  ,push 0,                                                             ,      0.2599,   662,      0.0004
+Archive:/sstoascend.ks, 170:83 ,0800,@0780  ,push 8,                                                             ,      0.2105,   662,      0.0003
+Archive:/sstoascend.ks, 170:83 ,0801,@0781  ,call printat(),                                                     ,      3.8141,   662,      0.0058
+Archive:/sstoascend.ks, 170:83 ,0802,@0782  ,pop,                                                                ,      0.1492,   662,      0.0002
+Archive:/sstoascend.ks, 171:5  ,0803,@0783  ,push _KOSArgMarker_,                                                ,      0.1611,   662,      0.0002
+Archive:/sstoascend.ks, 171:11 ,0804,@0784  ,push    Alt: ,                                                      ,      0.1587,   662,      0.0002
+Archive:/sstoascend.ks, 171:29 ,0805,@0785  ,push _KOSArgMarker_,                                                ,      0.0986,   662,      0.0001
+Archive:/sstoascend.ks, 171:30 ,0806,@0786  ,push $ship,                                                         ,      0.1490,   662,      0.0002
+Archive:/sstoascend.ks, 171:30 ,0807,@0787  ,getmember altitude,                                                 ,      6.1430,   662,      0.0093
+Archive:/sstoascend.ks, 171:44 ,0808,@0788  ,push 0,                                                             ,      0.2601,   662,      0.0004
+Archive:/sstoascend.ks, 171:44 ,0809,@0789  ,call round(),                                                       ,      1.5819,   662,      0.0024
+Archive:/sstoascend.ks, 171:22 ,0810,@0790  ,add,                                                                ,      1.2864,   662,      0.0019
+Archive:/sstoascend.ks, 171:49 ,0811,@0791  ,push  FPA: ,                                                        ,      0.1687,   662,      0.0003
+Archive:/sstoascend.ks, 171:47 ,0812,@0792  ,add,                                                                ,      0.9319,   662,      0.0014
+Archive:/sstoascend.ks, 171:65 ,0813,@0793  ,push _KOSArgMarker_,                                                ,      0.1157,   662,      0.0002
+Archive:/sstoascend.ks, 171:66 ,0814,@0794  ,push _KOSArgMarker_,                                                ,      0.0959,   662,      0.0001
+Archive:/sstoascend.ks, 171:66 ,0815,@0795  ,call $fpa*,                                                         ,      1.6096,   662,      0.0024
+Archive:/sstoascend.ks, 171:70 ,0816,@0796  ,push 2,                                                             ,      0.2740,   662,      0.0004
+Archive:/sstoascend.ks, 171:70 ,0817,@0797  ,call round(),                                                       ,      1.5260,   662,      0.0023
+Archive:/sstoascend.ks, 171:58 ,0818,@0798  ,add,                                                                ,      1.6887,   662,      0.0026
+Archive:/sstoascend.ks, 171:75 ,0819,@0799  ,push  Speed: ,                                                      ,      0.1744,   662,      0.0003
+Archive:/sstoascend.ks, 171:73 ,0820,@0800  ,add,                                                                ,      0.8719,   662,      0.0013
+Archive:/sstoascend.ks, 171:93 ,0821,@0801  ,push _KOSArgMarker_,                                                ,      0.1052,   662,      0.0002
+Archive:/sstoascend.ks, 171:94 ,0822,@0802  ,push $ship,                                                         ,      0.1406,   662,      0.0002
+Archive:/sstoascend.ks, 171:94 ,0823,@0803  ,getmember groundspeed,                                              ,      5.9719,   662,      0.0090
+Archive:/sstoascend.ks, 171:111,0824,@0804  ,push 1,                                                             ,      0.2784,   662,      0.0004
+Archive:/sstoascend.ks, 171:111,0825,@0805  ,call round(),                                                       ,      1.4602,   662,      0.0022
+Archive:/sstoascend.ks, 171:86 ,0826,@0806  ,add,                                                                ,      1.3387,   662,      0.0020
+Archive:/sstoascend.ks, 171:119,0827,@0807  ,push 0,                                                             ,      0.2650,   662,      0.0004
+Archive:/sstoascend.ks, 171:121,0828,@0808  ,push 9,                                                             ,      0.3191,   662,      0.0005
+Archive:/sstoascend.ks, 171:121,0829,@0809  ,call printat(),                                                     ,      2.6037,   662,      0.0039
+Archive:/sstoascend.ks, 171:121,0830,@0810  ,pop,                                                                ,      0.1363,   662,      0.0002
+Archive:/sstoascend.ks, 172:10 ,0831,@0811  ,push 0.1,                                                           ,      0.2284,   662,      0.0003
+Archive:/sstoascend.ks, 172:10 ,0832,@0812  ,wait,                                                               ,      0.6546,   662,      0.0010
+Archive:/sstoascend.ks, 173:1  ,0833,@0813  ,popscope 1,                                                         ,      1.3483,   662,      0.0020
+Archive:/sstoascend.ks, 173:1  ,0834,@0814  ,jump -44,                                                           ,      0.2311,   662,      0.0003
+Archive:/sstoascend.ks, 174:1  ,0835,@0815  ,push _KOSArgMarker_,                                                ,      0.0003,     1,      0.0003
+Archive:/sstoascend.ks, 174:1  ,0836,@0816  ,push steering,                                                      ,      0.0012,     1,      0.0012
+Archive:/sstoascend.ks, 174:1  ,0837,@0817  ,push False,                                                         ,      0.0003,     1,      0.0003
+Archive:/sstoascend.ks, 174:1  ,0838,@0818  ,call toggleflybywire(),                                             ,      0.0926,     1,      0.0926
+Archive:/sstoascend.ks, 174:1  ,0839,@0819  ,pop,                                                                ,      0.0003,     1,      0.0003
+Archive:/sstoascend.ks, 174:1  ,0840,@0820  ,push 442,                                                           ,      0.0006,     1,      0.0006
+Archive:/sstoascend.ks, 174:1  ,0841,@0821  ,removetrigger,                                                      ,      0.0027,     1,      0.0027
+Archive:/sstoascend.ks, 174:1  ,0842,@0822  ,push 310,                                                           ,      0.0003,     1,      0.0003
+Archive:/sstoascend.ks, 174:1  ,0843,@0823  ,store $steering*,                                                   ,      0.0015,     1,      0.0015
+Archive:/sstoascend.ks, 175:1  ,0844,@0824  ,push _KOSArgMarker_,                                                ,      0.0003,     1,      0.0003
+Archive:/sstoascend.ks, 175:7  ,0845,@0825  ,push 4) Successfully got apoapsis to 75000 metres. FPA was ,        ,      0.0003,     1,      0.0003
+Archive:/sstoascend.ks, 175:71 ,0846,@0826  ,push _KOSArgMarker_,                                                ,      0.0000,     1,      0.0000
+Archive:/sstoascend.ks, 175:72 ,0847,@0827  ,push _KOSArgMarker_,                                                ,      0.0003,     1,      0.0003
+Archive:/sstoascend.ks, 175:72 ,0848,@0828  ,call $fpa*,                                                         ,      0.0028,     1,      0.0028
+Archive:/sstoascend.ks, 175:76 ,0849,@0829  ,push 2,                                                             ,      0.0006,     1,      0.0006
+Archive:/sstoascend.ks, 175:76 ,0850,@0830  ,call round(),                                                       ,      0.0021,     1,      0.0021
+Archive:/sstoascend.ks, 175:64 ,0851,@0831  ,add,                                                                ,      0.0024,     1,      0.0024
+Archive:/sstoascend.ks, 175:81 ,0852,@0832  ,push  and speed was:,                                               ,      0.0000,     1,      0.0000
+Archive:/sstoascend.ks, 175:79 ,0853,@0833  ,add,                                                                ,      0.0012,     1,      0.0012
+Archive:/sstoascend.ks, 175:106,0854,@0834  ,push _KOSArgMarker_,                                                ,      0.0000,     1,      0.0000
+Archive:/sstoascend.ks, 175:107,0855,@0835  ,push $ship,                                                         ,      0.0000,     1,      0.0000
+Archive:/sstoascend.ks, 175:107,0856,@0836  ,getmember groundspeed,                                              ,      0.0088,     1,      0.0088
+Archive:/sstoascend.ks, 175:124,0857,@0837  ,push 1,                                                             ,      0.0003,     1,      0.0003
+Archive:/sstoascend.ks, 175:124,0858,@0838  ,call round(),                                                       ,      0.0024,     1,      0.0024
+Archive:/sstoascend.ks, 175:99 ,0859,@0839  ,add,                                                                ,      0.0015,     1,      0.0015
+Archive:/sstoascend.ks, 175:132,0860,@0840  ,push 0,                                                             ,      0.0003,     1,      0.0003
+Archive:/sstoascend.ks, 175:134,0861,@0841  ,push 8,                                                             ,      0.0006,     1,      0.0006
+Archive:/sstoascend.ks, 175:134,0862,@0842  ,call printat(),                                                     ,      0.0055,     1,      0.0055
+Archive:/sstoascend.ks, 175:134,0863,@0843  ,pop,                                                                ,      0.0000,     1,      0.0000
+Archive:/sstoascend.ks, 176:1  ,0864,@0844  ,push _KOSArgMarker_,                                                ,      0.0018,     1,      0.0018
+Archive:/sstoascend.ks, 176:7  ,0865,@0845  ,push    Setting SAS to prograde mode to minimise drag.,             ,      0.0000,     1,      0.0000
+Archive:/sstoascend.ks, 176:64 ,0866,@0846  ,push 0,                                                             ,      0.0006,     1,      0.0006
+Archive:/sstoascend.ks, 176:66 ,0867,@0847  ,push 9,                                                             ,      0.0003,     1,      0.0003
+Archive:/sstoascend.ks, 176:66 ,0868,@0848  ,call printat(),                                                     ,      0.0042,     1,      0.0042
+Archive:/sstoascend.ks, 176:66 ,0869,@0849  ,pop,                                                                ,      0.0003,     1,      0.0003
+Archive:/sstoascend.ks, 177:1  ,0870,@0850  ,push _KOSArgMarker_,                                                ,      0.0000,     1,      0.0000
+Archive:/sstoascend.ks, 177:7  ,0871,@0851  ,push    Prepare for circularization. Thanks for flying with us.,    ,      0.0000,     1,      0.0000
+Archive:/sstoascend.ks, 177:73 ,0872,@0852  ,push 0,                                                             ,      0.0003,     1,      0.0003
+Archive:/sstoascend.ks, 177:75 ,0873,@0853  ,push 10,                                                            ,      0.0009,     1,      0.0009
+Archive:/sstoascend.ks, 177:75 ,0874,@0854  ,call printat(),                                                     ,      0.0045,     1,      0.0045
+Archive:/sstoascend.ks, 177:75 ,0875,@0855  ,pop,                                                                ,      0.0000,     1,      0.0000
+Archive:/sstoascend.ks, 178:5  ,0876,@0856  ,push True,                                                          ,      0.0000,     1,      0.0000
+Archive:/sstoascend.ks, 178:5  ,0877,@0857  ,store $sas,                                                         ,      0.0827,     1,      0.0827
+Archive:/sstoascend.ks, 179:6  ,0878,@0858  ,push 0,                                                             ,      0.0006,     1,      0.0006
+Archive:/sstoascend.ks, 179:6  ,0879,@0859  ,wait,                                                               ,      0.0009,     1,      0.0009
+Archive:/sstoascend.ks, 180:5  ,0880,@0860  ,push $config,                                                       ,      0.0048,     1,      0.0048
+Archive:/sstoascend.ks, 180:19 ,0881,@0861  ,push 200,                                                           ,      0.0015,     1,      0.0015
+Archive:/sstoascend.ks, 180:19 ,0882,@0862  ,setmember ipu,                                                      ,      0.0181,     1,      0.0181
+Archive:/sstoascend.ks, 181:16 ,0883,@0863  ,push PROGRADE,                                                      ,      0.0009,     1,      0.0009
+Archive:/sstoascend.ks, 181:16 ,0884,@0864  ,store $sasmode,                                                     ,     12.0365,     1,     12.0365
+Archive:/sstoascend.ks, 181:0  ,0885,@0865  ,popscope 1,                                                         ,      0.0052,     1,      0.0052
+                    ,   0:0  ,0886,       ,pop,                                                                  ,      0.0018,     1,      0.0018
+                    ,   0:0  ,0887,       ,EOP,<<--INSTRUCTION POINTER--                                         ,      0.0003,     1,      0.0003
