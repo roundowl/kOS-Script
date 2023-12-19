@@ -25,7 +25,7 @@ wait 1.
 print("Liftoff!").
 
 // Parameters
-parameter orbit_radius.
+set orbit_radius to 100000.
 
 // Constants
 set g to kerbin:mu / kerbin:radius^2.
